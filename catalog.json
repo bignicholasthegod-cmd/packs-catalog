@@ -1,0 +1,596 @@
+[
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gruntz",
+    "cost_per_P": 550.0,
+    "retail_P": 700,
+    "retail_oz": 79,
+    "desc": "Gruntz\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light 9/10 Nose\nIndica Dominant 70/30\nGushers x Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "White Glitterbomb",
+    "cost_per_P": 550.0,
+    "retail_P": 700,
+    "retail_oz": 79,
+    "desc": "White Glitterbomb\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 9/10 Nose\nIndica Dominant 70/30\nGlitterbomb x White Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Tutti Frutti Smalls",
+    "cost_per_P": 350.0,
+    "retail_P": 500,
+    "retail_oz": 67,
+    "desc": "Tutti Frutti Smalls\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light Smalls. 8/10 Nose\nBalanced Hybrid 50/50\nBlue Haze x Green Haze x Thai x Ruderalis\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Honey Banana",
+    "cost_per_P": 505.0,
+    "retail_P": 655,
+    "retail_oz": 77,
+    "desc": "Honey Banana\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light 8/10 Nose\nBalanced Hybrid 50/50\nStrawberry Banana x Honey Boo Boo\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Honey Runtz",
+    "cost_per_P": 475.0,
+    "retail_P": 625,
+    "retail_oz": 75,
+    "desc": "Honey Runtz\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 8/10 Nose\nSativa Dominant 60/40\nHoney Banana x Canal St Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Pineapple Jack Smalls",
+    "cost_per_P": 399.0,
+    "retail_P": 549,
+    "retail_oz": 70,
+    "desc": "Pineapple Jack Smalls\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nMixed Light 9/10 Nose\nBalanced Hybrid 50/50\nPineapple x Jack Herer\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Pineapple Jack",
+    "cost_per_P": 505.0,
+    "retail_P": 655,
+    "retail_oz": 77,
+    "desc": "Pineapple Jack\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nMixed Lights 9/10 Nose\nBalanced Hybrid 50/50\nPineapple x Jack Herer\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Green Lantern",
+    "cost_per_P": 475.0,
+    "retail_P": 625,
+    "retail_oz": 75,
+    "desc": "Green Lantern\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light 8/10 Nose\nSativa Dominant 80/20\nGreen Crack x White Rhino\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Sour Grapes",
+    "cost_per_P": 505.0,
+    "retail_P": 655,
+    "retail_oz": 77,
+    "desc": "Sour Grapes\nNew\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 8/10 Nose\nBalanced Hybrid 50/50\nSour Diesel x Grandaddy Purple\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Sour Purple Cream",
+    "cost_per_P": 399.0,
+    "retail_P": 549,
+    "retail_oz": 70,
+    "desc": "Sour Purple Cream\n13 purchases\n-- by Best of the Bay\n  /v_botb\n\nDeps. 10/10 Nose\nIndica Dominant 70/30\n(Purple Kush x Cream Caramel) x (Sour Diesel x G13 Haze) \n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Red Runtz D2129",
+    "cost_per_P": 750.0,
+    "retail_P": 900,
+    "retail_oz": 92,
+    "desc": "Red Runtz D2129\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 8/10 Nose\nBalanced Hybrid 50/50\nRed Pop x Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Candy Runtz D2130",
+    "cost_per_P": 750.0,
+    "retail_P": 900,
+    "retail_oz": 92,
+    "desc": "Candy Runtz D2130\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nBalanced Hybrid 50/50\nRuntz Pheno\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "White Lemon Cherry",
+    "cost_per_P": 699.0,
+    "retail_P": 849,
+    "retail_oz": 89,
+    "desc": "White Lemon Cherry\n5 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 9/10 Nose\nBalanced Hybrid 50/50\nWhite Runtz x Lemon Cherry Gelato\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Super Jack",
+    "cost_per_P": 750.0,
+    "retail_P": 900,
+    "retail_oz": 92,
+    "desc": "Super Jack\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nThese are a little too fresh and the nose is super muted. Price has been cut to reflect that. These will for sure need to be burped. 5 available\n\nIndoor. 7/10 Nose\nPure Sativa 100%\nSuper Silver Haze x Jack Herer\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Super Lemon Haze",
+    "cost_per_P": 750.0,
+    "retail_P": 900,
+    "retail_oz": 92,
+    "desc": "Super Lemon Haze\nNew\n-- by Best of the Bay\n  /v_botb\n\nThese are a little too fresh and the nose is super muted. Price has been cut to reflect that. These will for sure need to be burped. 9 available\n\nIndoor. 7/10 Nose\nSativa Dominant 80/20\nLemon Skunk x Super Silver Haze\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gas Mask Smalls",
+    "cost_per_P": 650.0,
+    "retail_P": 800,
+    "retail_oz": 86,
+    "desc": "Gas Mask Smalls\nNew\n-- by Best of the Bay\n  /v_botb\n\nThese are a little too fresh and the nose is super muted. Price has been cut to reflect that. These will for sure need to be burped. 10 available\n\nIndoor Smalls. 6/10 Nose\nIndica Dominant 70/30\nCherry Pie x Fire Alien Kush F2 \n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gas Mask A783",
+    "cost_per_P": 775.0,
+    "retail_P": 925,
+    "retail_oz": 93,
+    "desc": "Gas Mask A783\nNew\n-- by Best of the Bay\n  /v_botb\n\nThese are a little too fresh and the nose is super muted. Price has been cut to reflect that. These will for sure need to be burped. 15 available\n\nIndoor. 6/10 Nose\nIndica Dominant 70/30\nCherry Pie x Fire Alien Kush F2 \n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Blue Taffy Mediums",
+    "cost_per_P": 480.0,
+    "retail_P": 630,
+    "retail_oz": 75,
+    "desc": "Blue Taffy Mediums\n5 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nIndica Dominant 60/40\nBlueberry x Taffie\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Horchata",
+    "cost_per_P": 599.0,
+    "retail_P": 749,
+    "retail_oz": 82,
+    "desc": "Horchata\n12 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light - Indoor Pass. 10/10 Nose\nBalanced Hybrid 50/50\nMochi Gelato x Jet Fuel Gelato\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Peanut Butter Gas",
+    "cost_per_P": 535.0,
+    "retail_P": 685,
+    "retail_oz": 78,
+    "desc": "Peanut Butter Gas\n7 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 50/50\nGas Face x Peanut Butter Breath\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Jelly Runtz",
+    "cost_per_P": 1050.0,
+    "retail_P": 1200,
+    "retail_oz": 111,
+    "desc": "Jelly Runtz\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nBalanced Hybrid 50/50\nHella Jelly x White Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Strawberry Milk",
+    "cost_per_P": 625.0,
+    "retail_P": 775,
+    "retail_oz": 84,
+    "desc": "Strawberry Milk\n6 purchases\n-- by Best of the Bay\n  /v_botb\n\nAAA Mixed Light - Indoor Pass. 10/10 Nose\nBalanced Hybrid 50/50\nNepali OG x Instant Karma\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Candy Mob",
+    "cost_per_P": 575.0,
+    "retail_P": 725,
+    "retail_oz": 81,
+    "desc": "Candy Mob\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nSativa Dominant 60/40\nMafia Funeral x Mobstoppers\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Rainbow Zkittles D2109",
+    "cost_per_P": 925.0,
+    "retail_P": 1075,
+    "retail_oz": 103,
+    "desc": "Rainbow Zkittles D2109\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nIndica Dominant 60/40\nRS-11 x Zkittlez\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Double OG Chem Smalls D2100",
+    "cost_per_P": 385.0,
+    "retail_P": 535,
+    "retail_oz": 69,
+    "desc": "Double OG Chem Smalls D2100\n5 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light 10/10 Nose\nIndica Dominant 60/40\nOG Chemdawg x Double OG Sour\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Bluephoria Smalls",
+    "cost_per_P": 385.0,
+    "retail_P": 535,
+    "retail_oz": 69,
+    "desc": "Bluephoria Smalls\n5 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 50/50\nSlurty 3 x Gush Mints\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Red Candy Micros_",
+    "cost_per_P": 325.0,
+    "retail_P": 475,
+    "retail_oz": 65,
+    "desc": "Red Candy Micros_\nNew\n-- by Best of the Bay\n  /v_botb\n\nlast one!\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Cotton Candy Popperz",
+    "cost_per_P": 1275.0,
+    "retail_P": 1425,
+    "retail_oz": 125,
+    "desc": "Cotton Candy Popperz\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nExotic. 10/10 Nose\nIndica Dominant 60/40\nCotton Candy x Bubblegum Popperz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Super Lemon Cherry Smalls",
+    "cost_per_P": 799.0,
+    "retail_P": 949,
+    "retail_oz": 95,
+    "desc": "Super Lemon Cherry Smalls\n7 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nIndica Dominant 60/40\nSuper Runtz x Lemon Cherry Gelato\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Bubblegum Popperz Smalls D2066",
+    "cost_per_P": 675.0,
+    "retail_P": 825,
+    "retail_oz": 87,
+    "desc": "Bubblegum Popperz Smalls D2066\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor Smalls. 10/10 Nose\nBalanced Hybrid 50/50\nSuperdope x HiTech x Fear Of Boof\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Very Berry Runtz DS21",
+    "cost_per_P": 575.0,
+    "retail_P": 725,
+    "retail_oz": 81,
+    "desc": "Very Berry Runtz DS21\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 10/10 Nose\nZkittlez x Gelato Pheno\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Grape Runtz DN115",
+    "cost_per_P": 600.0,
+    "retail_P": 750,
+    "retail_oz": 82,
+    "desc": "Grape Runtz DN115\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 9/10 Nose\nBalanced Hybrid 50/50\nRuntz x Grape Ape\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "In House Crumble B Tier",
+    "cost_per_P": 325.0,
+    "retail_P": 475,
+    "retail_oz": 65,
+    "desc": "In House Crumble B Tier\n8 purchases\n-- by Best of the Bay\n  /v_botb\n\nIn House Crumble - B Tier\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Zours By Atlas Seed Co",
+    "cost_per_P": 450.0,
+    "retail_P": 600,
+    "retail_oz": 73,
+    "desc": "Zours By Atlas Seed Co\n\u2b50\u2b50\u2b50\u2b50\u2b50 10/10\n6 purchases\n-- by Best of the Bay\n  /v_botb\n\nReal Zours By Atlas Seed Co\nExotic 11/10 Nose\nIndica Dominant 70/30\nSour D x Zkittlez\n\n1oz option is add on only!\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Runtz 33 Mediums",
+    "cost_per_P": 625.0,
+    "retail_P": 775,
+    "retail_oz": 84,
+    "desc": "Runtz 33 Mediums\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 50/50\nGelato 33 x Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Candy Pop",
+    "cost_per_P": 499.0,
+    "retail_P": 649,
+    "retail_oz": 76,
+    "desc": "Candy Pop\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nDeps. 9/10 Nose\nBalanced Hybrid 50/50\nRed Pop x Runtz\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Blueberry Zoap_",
+    "cost_per_P": 475.0,
+    "retail_P": 625,
+    "retail_oz": 75,
+    "desc": "Blueberry Zoap_\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nDeps. 9/10 Nose\nBalanced Hybrid 50/50\nBlueberry x Zoap\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gas Mask_ D2027",
+    "cost_per_P": 499.0,
+    "retail_P": 649,
+    "retail_oz": 76,
+    "desc": "Gas Mask_ D2027\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nDeps. 9/10 Nose\nIndica Dominant 70/30\nCherry Pie x Fire Alien Kush F2\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Cherry Drop_",
+    "cost_per_P": 495.0,
+    "retail_P": 645,
+    "retail_oz": 76,
+    "desc": "Cherry Drop_\n\u2b50\u2b50\u2b50\u2b50\u2606 9.5/10\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nLight Dep. 9/10 Nose\nSativa Dominant 80/20\nCherry AK47 x Cali OG\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Peach Cobbler_",
+    "cost_per_P": 499.0,
+    "retail_P": 649,
+    "retail_oz": 76,
+    "desc": "Peach Cobbler_\n8 purchases\n-- by Best of the Bay\n  /v_botb\n\nLight Deps. 9/10 Nose\nBalanced Hybrid 50/50\n(Peach Kush x Sour D x Romulan) x Monster Sauce\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Rocket Cream_ D2023",
+    "cost_per_P": 495.0,
+    "retail_P": 645,
+    "retail_oz": 76,
+    "desc": "Rocket Cream_ D2023\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nLight Dep. 9/10 Nose\nIndica Dominant 70/30\nBlizzard Of Oz x Winter Frost\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Elmers Glue D2068",
+    "cost_per_P": 475.0,
+    "retail_P": 625,
+    "retail_oz": 75,
+    "desc": "Elmers Glue D2068\n6 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 50/50\nGorilla Glue #4 x White Widow\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Cherry Zootie Smalls",
+    "cost_per_P": 550.0,
+    "retail_P": 700,
+    "retail_oz": 79,
+    "desc": "Cherry Zootie Smalls\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light - Indoor Pass. 10/10 Nose\nBalanced Hybrid 50/50\nCherry Runtz x (Grape Ape x Grapefruit x Z x Gelato) \n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Rainbow Ribbons TERP'D",
+    "cost_per_P": 799.0,
+    "retail_P": 949,
+    "retail_oz": 95,
+    "desc": "Rainbow Ribbons TERP'D\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor Terp Infused. 11/10 Nose\nBalanced Hybrid 50/50\nZkittlez x Moonbow\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Blue Goo_",
+    "cost_per_P": 685.0,
+    "retail_P": 835,
+    "retail_oz": 88,
+    "desc": "Blue Goo_\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nBudget Indoor. 9/10 Nose\nSativa Dominant 60/40\nBlue Dream x Afgoo\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "OM In House Hash Rosin",
+    "cost_per_P": 1850.0,
+    "retail_P": 2000,
+    "retail_oz": 161,
+    "desc": "OM In House Hash Rosin\n7 purchases\n-- by Best of the Bay\n  /v_botb\n\nFinally we have our in house rosin. Restocked 10/13 with new strain!\nMix N Match 4 strains per oz!\n\nFlavors Available:\n\n-Garlic Runtz\n(Garlicane x Runtz)\n-Island Breeze\n(Trop cherries x Purple punch)\n-Cookies N Cream\n(Secret weapon x GSC)\n-Orangescotti\n(Tangie x Biscotti)\n-Garlic Cookies\n(GMO x Slurricrasher)\n-Garlic Punch\n(Purple Punch x GMO)\n-Purple Punch\n(Purple punch x Motor Breath)\n-Zquirt\n(Grape fruit x Zour Kush)\n-Han Solo Berger\n(Garlicane x Donny Berger)\n\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Kushlato_",
+    "cost_per_P": 375.0,
+    "retail_P": 525,
+    "retail_oz": 68,
+    "desc": "Kushlato_\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nLight Dep. 10/10 Nose\nIndica Dominant 80/20\nGelato x Kush Mints\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "In House Sugar B Tier",
+    "cost_per_P": 200.0,
+    "retail_P": 350,
+    "retail_oz": 58,
+    "desc": "In House Sugar B Tier\nNew\n-- by Best of the Bay\n  /v_botb\n\nB Tier has finally been restocked!\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Lemon Cherry Banana D2036",
+    "cost_per_P": 550.0,
+    "retail_P": 700,
+    "retail_oz": 79,
+    "desc": "Lemon Cherry Banana D2036\n\u2b50\u2b50\u2b50\u2b50\u2b50 10/10\n15 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nBalanced Hybrid 50/50\nLemon Cherry Gelato x Banana Punch\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Karbon Kool Aid D2033",
+    "cost_per_P": 499.0,
+    "retail_P": 649,
+    "retail_oz": 76,
+    "desc": "Karbon Kool Aid D2033\n\u2b50\u2b50\u2b50\u2b50\u2606 9.7/10\n25 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nIndica Dominant 70/30\nCarbon Fiber x Kut Throat Kandy\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Lemon Fuckin Gelato D2039",
+    "cost_per_P": 575.0,
+    "retail_P": 725,
+    "retail_oz": 81,
+    "desc": "Lemon Fuckin Gelato D2039\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nIndica Dominant 70/30\nGelato #33 x Lemon Tree\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "OM Yellow Mermaid By LAX",
+    "cost_per_P": 575.0,
+    "retail_P": 725,
+    "retail_oz": 81,
+    "desc": "OM Yellow Mermaid By LAX\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nBy LAX Exotic / Hype 11/10 Smoke & Nose\nSativa Dominant 60/40\nYellow Zushi x Bebesita\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "DoSiDos_",
+    "cost_per_P": 399.0,
+    "retail_P": 549,
+    "retail_oz": 70,
+    "desc": "DoSiDos_\n\u2b50\u2b50\u2b50\u2b50\u2606 9/10\n55 purchases\n-- by Best of the Bay\n  /v_botb\n\nLight Deps. 9/10 Nose\nIndica Dominant 70/30\nGirl Scout Cookies x Face Off OG\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gas Banana",
+    "cost_per_P": 1050.0,
+    "retail_P": 1200,
+    "retail_oz": 111,
+    "desc": "Gas Banana\n\u2b50\u2b50\u2b50\u2b50\u2b50 10/10\n6 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor 10/10 Nose\nIndica Dominant 70/30\nDirty Banana x Lemon Gas\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "White Gummy D1130",
+    "cost_per_P": 490.0,
+    "retail_P": 640,
+    "retail_oz": 76,
+    "desc": "White Gummy D1130\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nAAA Mixed Light. 9/10 Nose\nIndica Dominant 60/40\nJillybean x Bubblegum\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "OM Toad Smalls",
+    "cost_per_P": 350.0,
+    "retail_P": 500,
+    "retail_oz": 67,
+    "desc": "OM Toad Smalls\n\u2b50\u2b50\u2b50\u2b50\u2b50 10/10\n8 purchases\n-- by Best of the Bay\n  /v_botb\n\nToad Venom Smalls By Green Dragon (theres some mediums in here too)\nExotic 10/10\nIndica Dominant 70/30\nAnimal Face x Sin Mintz\n\n1oz is add on only\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Kong Glue D1163",
+    "cost_per_P": 540.0,
+    "retail_P": 690,
+    "retail_oz": 79,
+    "desc": "Kong Glue D1163\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nDeps. 9/10 Nose\nIndica Dominant 70/30\nKing Kong x Gorilla Glue #4\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Glitch Masterbox",
+    "cost_per_P": 550.0,
+    "retail_P": 700,
+    "retail_oz": 79,
+    "desc": "Glitch Masterbox\n5 purchases\n-- by Best of the Bay\n  /v_botb\n\n1 QP PER MASTER BOX ( 1 OUNCE PER STRAIN )\nSmall Batch Boutique Za\nGuaranteed 10/10 Nose and Smoke\n*Flower unavailable to the public outside of brand\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Royal Runtz",
+    "cost_per_P": 750.0,
+    "retail_P": 900,
+    "retail_oz": 92,
+    "desc": "Royal Runtz\n1 purchase\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nBalanced Hybrid 50/50\nGelato x Zkittlez Pheno\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Gorilla Glue A729",
+    "cost_per_P": 625.0,
+    "retail_P": 775,
+    "retail_oz": 84,
+    "desc": "Gorilla Glue A729\n\u2b50\u2b50\u2b50\u2b50\u2b50 10/10\n6 purchases\n-- by Best of the Bay\n  /v_botb\n\nMixed Light. 10/10 Nose\nIndica Dominant 60/40\nChocolate Diesel x Sour Diesel\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "LA Runtz",
+    "cost_per_P": 700.0,
+    "retail_P": 850,
+    "retail_oz": 89,
+    "desc": "LA Runtz\n3 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 9/10 Nose\nBalanced Hybrid 50/50\nRuntz x LA Kush Cake\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Rain Shadow Runtz",
+    "cost_per_P": 1050.0,
+    "retail_P": 1200,
+    "retail_oz": 111,
+    "desc": "Rain Shadow Runtz\n2 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nBalanced Hybrid 50/50\nZkittles x Gelato 41\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Jilly Bean A802",
+    "cost_per_P": 1050.0,
+    "retail_P": 1200,
+    "retail_oz": 111,
+    "desc": "Jilly Bean A802\n4 purchases\n-- by Best of the Bay\n  /v_botb\n\nIndoor. 10/10 Nose\nSativa Dominant 60/40\nSpace Queen x Orange Skunk\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "In House Sugar A Tier",
+    "cost_per_P": 225.0,
+    "retail_P": 375,
+    "retail_oz": 59,
+    "desc": "In House Sugar A Tier\n\u2b50\u2b50\u2b50\u2b50\u2606 9.5/10\n14 purchases\n-- by Best of the Bay\n  /v_botb\n\nFinally back in stock!\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "Arctic Truffles D1170",
+    "cost_per_P": 599.0,
+    "retail_P": 749,
+    "retail_oz": 82,
+    "desc": "Arctic Truffles D1170\n\u2b50\u2b50\u2b50\u2b50\u2606 9.8/10\n51 purchases\n-- by Best of the Bay\n  /v_botb\n\nLight Dep. 10/10 Nose\nIndica Dominant 70/30\nGorilla Butter Pheno (GG4 x PB Breath)\n\n*Certified Sharky Top Selling Strain*\n\n\ud83d\uded2 This product is not in /cart"
+  },
+  {
+    "vendor": "Best of the Bay",
+    "category": "\u21c7 Back",
+    "product": "In House Badder B Tier",
+    "cost_per_P": 200.0,
+    "retail_P": 350,
+    "retail_oz": 58,
+    "desc": "In House Badder B Tier\n\u2b50\u2b50\u2b50\u2b50\u2606 9.2/10\n33 purchases\n-- by Best of the Bay\n  /v_botb\n\nOur in house badder is finally restock. The B tier is just a step below our A tier!\nNew batch in photo 9/23\n\n\ud83d\uded2 This product is not in /cart"
+  }
+]
