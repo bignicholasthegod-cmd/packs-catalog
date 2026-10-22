@@ -8,23 +8,44 @@ API_HASH = os.environ.get("TG_API_HASH", "")
 SESSION  = os.environ.get("TG_SESSION", "")
 
 SOURCES = [("SiBannerBot", "bot")]
-WAIT    = 1.6
-MAX_PER_CATEGORY = 80
-SKIP    = {"back", "⬅️", "«", "◀️"}
+WAIT = 2.0
+MAX_PER_CATEGORY = 200
+NAV = ("next", "previous", "back", "«", "»", "◀", "▶")
 
-PRICE_P = re.compile(r"P\s*[–\-—:]\s*\$?\s*([\d,]+(?:\.\d+)?)")
-VENDOR  = re.compile(r"\bby\s+([A-Za-z0-9'&.\- ]{2,40})")
+VENDOR = re.compile(r"--\s*by\s+(.+?)(?:\n|$)")
+NOSE   = re.compile(r"(\d+(?:\.\d+)?)\s*/\s*10\s*Nose", re.I)
+STRAIN = re.compile(r"(Indica Dominant|Sativa Dominant|Balanced Hybrid|Pure Indica|Pure Sativa)\s*\d+/\d+", re.I)
+TIER   = re.compile(r"([A-Za-z0-9 .]{1,12}?)\s*[—–-]\s*\$?\s*([\d,]+)")
 
 def norm(t): return (t or "").replace("\r", "").strip()
+def is_nav(label): 
+    l = label.lower()
+    return any(n in l for n in NAV)
 
 async def latest(client, bot):
     m = await client.get_messages(bot, limit=1)
     return m[0] if m else None
 
-async def replay(client, bot, path):
+async def to_menu(client, bot):
+    """Send /start, then press Back until we're at a real menu (no Next button)."""
     await client.send_message(bot, "/start")
-    await asyncio.sleep(2.5)
+    await asyncio.sleep(3.5)
     msg = await latest(client, bot)
+    for _ in range(8):
+        if not msg or not msg.buttons: break
+        labels = [b.text for row in msg.buttons for b in row]
+        if not any("next" in l.lower() for l in labels):
+            return msg, labels          # no Next => we're at a menu
+        back = next((b for row in msg.buttons for b in row if "back" in b.text.lower()), None)
+        if not back: break
+        try: await msg.click(text=back.text)
+        except Exception: break
+        await asyncio.sleep(WAIT)
+        msg = await latest(client, bot)
+    return msg, ([b.text for row in (msg.buttons or []) for b in row] if msg else [])
+
+async def open_path(client, bot, path):
+    msg, _ = await to_menu(client, bot)
     for label in path:
         if not msg or not msg.buttons: return None
         try: await msg.click(text=label)
@@ -33,44 +54,60 @@ async def replay(client, bot, path):
         msg = await latest(client, bot)
     return msg
 
-def find_btn(msg, needle):
+def tiers_of(msg):
+    out = {}
     for row in (msg.buttons or []):
         for b in row:
-            if needle in b.text.strip().lower(): return b
-    return None
+            m = TIER.search(b.text)
+            if m:
+                k = m.group(1).strip()
+                v = float(m.group(2).replace(",", ""))
+                if k and v: out[k] = v
+    return out
 
-def price_of(msg):
-    hay = (msg.message or "") + " " + " ".join(b.text for r in (msg.buttons or []) for b in r)
-    m = PRICE_P.search(hay)
-    return float(m.group(1).replace(",", "")) if m else None
-
-def snapshot(cat, msg, price):
-    text = norm(msg.message)
+def parse_text(text):
     lines = [l.strip() for l in text.split("\n") if l.strip()]
-    v = VENDOR.search(text)
+    name = lines[0] if lines else ""
+    vendor = ""
+    m = VENDOR.search(text)
+    if m: vendor = m.group(1).strip()
+    # descriptor = first line after the /v_ code line
+    desc = ""
+    for i, l in enumerate(lines):
+        if l.startswith("/"):
+            if i + 1 < len(lines): desc = lines[i + 1]
+            break
+    nose = NOSE.search(text)
+    strain = STRAIN.search(text)
     return {
-        "category": cat,
-        "name": lines[0] if lines else "",
-        "vendor": v.group(1).strip() if v else "",
-        "cost_per_P": price,
-        "text": text,
-        "buttons": [b.text for r in (msg.buttons or []) for b in r],
-        "media": bool(msg.photo or msg.document),
+        "name": name, "vendor": vendor, "descriptor": desc,
+        "nose": nose.group(1) if nose else "",
+        "strain": strain.group(1) if strain else "",
+        "lineage": lines[-2] if len(lines) > 3 else "",
     }
 
+def snapshot(msg):
+    t = norm(msg.message)
+    d = parse_text(t)
+    d["tiers"] = tiers_of(msg)
+    d["text"] = t
+    d["media"] = bool(msg.photo or msg.document)
+    return d
+
 async def crawl_category(client, bot, cat):
-    msg = await replay(client, bot, [cat])
+    msg = await open_path(client, bot, [cat])
     if not msg: return []
     out, seen, first = [], set(), None
     for _ in range(MAX_PER_CATEGORY):
-        text = norm(msg.message)
-        name = text.split("\n")[0].strip() if text else ""
+        t = norm(msg.message)
+        name = t.split("\n")[0].strip() if t else ""
         if name and name == first: break
         first = first or name
         if name and name not in seen:
             seen.add(name)
-            out.append(snapshot(cat, msg, price_of(msg)))
-        nxt = find_btn(msg, "next")
+            s = snapshot(msg); s["path_category"] = cat
+            out.append(s)
+        nxt = next((b for row in (msg.buttons or []) for b in row if "next" in b.text.lower()), None)
         if not nxt: break
         try: await msg.click(text=nxt.text)
         except Exception: break
@@ -80,29 +117,33 @@ async def crawl_category(client, bot, cat):
     return out
 
 async def crawl_bot(client, bot):
-    root = await replay(client, bot, [])
-    if not root or not root.buttons: return []
-    cats = [b.text.strip() for row in root.buttons for b in row
-            if b.text.strip().lower() not in SKIP]
+    root, labels = await to_menu(client, bot)
+    cats = [l.strip() for l in labels if not is_nav(l.strip()) and "review" not in l.lower()]
+    print("MENU BUTTONS:", cats)
     out = []
     for c in cats:
-        print("  category:", c)
+        print("  ->", c)
         try: out += await crawl_category(client, bot, c)
         except Exception as e: print("   !", c, e)
     return out
 
 def build(nodes):
-    items = []
+    seen, items = set(), []
     for n in nodes:
-        p = n.get("cost_per_P")
+        p = n["tiers"].get("P")
         if not p: continue
+        key = (n["vendor"], n["name"])
+        if key in seen: continue
+        seen.add(key)
         items.append({
             "vendor": n["vendor"],
-            "category": n["category"],
+            "category": n["descriptor"],
             "product": n["name"],
+            "nose": n["nose"], "strain": n["strain"],
             "cost_per_P": p,
             "retail_P": round(p + 150),
             "retail_oz": round(p / 16 + 45),
+            "tiers": n["tiers"],
             "desc": n["text"],
         })
     return items
@@ -116,6 +157,6 @@ async def main():
     await client.disconnect()
     json.dump(nodes, open("raw.json", "w"), indent=2)
     json.dump(build(nodes), open("catalog.json", "w"), indent=2)
-    print(f"{len(nodes)} products -> catalog.json")
+    print(f"{len(nodes)} nodes -> {len(build(nodes))} priced items")
 
 asyncio.run(main())
