@@ -20,8 +20,14 @@ TIER     = re.compile(r"([A-Za-z0-9 .]{1,12}?)\s*[—–-]\s*\$?\s*([\d,]+)")
 def norm(t): return (t or "").replace("\r", "").strip()
 
 async def latest(c):
-    m = await c.get_messages(BOT, limit=1)
-    return m[0] if m else None
+    msgs = await c.get_messages(BOT, limit=30)
+    for m in msgs:
+        if not m.out and m.buttons:
+            return m
+    for m in msgs:
+        if not m.out:
+            return m
+    return msgs[0] if msgs else None
 
 async def send(c, text):
     await c.send_message(BOT, text)
