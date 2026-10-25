@@ -1,25 +1,28 @@
 name: scrape
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
-
+permissions:
+  contents: write
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - run: python probe.py
+      - name: run scraper
         env:
-          TG_API_ID:   ${{ secrets.TG_API_ID }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
-          TG_SESSION:  ${{ secrets.TG_SESSION }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          OPEN_UNPRICED: "1"
+        run: python scrape.py
       - run: |
-          git config user.name  "catalog-bot"
+          git config user.name "catalog-bot"
           git config user.email "bot@users.noreply.github.com"
           git add catalog.json raw.json
           git commit -m "catalog update" || echo "no changes"
