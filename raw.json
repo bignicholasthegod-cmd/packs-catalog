@@ -1,211 +1,974 @@
-[
+{
+ "generated": "2026-10-25T19:59:46Z",
+ "count": 54,
+ "items": [
   {
-    "name": "Effortlessly explore a comprehensive selection of flowers across various price ranges, encompassing budget, mid-shelf, and top-shelf & Exotic options. Tailor your search by specifying preferred grades and strain types, ensuring that you procure precisely what you require.",
-    "vendor": "specifying preferred grades and strain t",
-    "descriptor": "-- by Best of the Bay",
-    "nose": "9",
-    "strain": "",
-    "category": "Flower",
-    "tiers": {},
-    "text": "Effortlessly explore a comprehensive selection of flowers across various price ranges, encompassing budget, mid-shelf, and top-shelf & Exotic options. Tailor your search by specifying preferred grades and strain types, ensuring that you procure precisely what you require.\n\nDoSiDos_\nLight Deps. 9/10 Nose Indica Dominant 70\u2026\n\u2b509.2 (60 purchases)\n/p0_141wX\n-- by Best of the Bay\n\nPremium Exotic Smalls - MIX N' MATCH\n11/10 smalls type shit. These are the be\u2026\n\u2b5010 (27 purchases)\n/p1_141wX\n-- by Boomingsales\n\nPurple Bubba Kush\ngassy bubba nose\n\u2b509.9 (124 purchases)\n/p2_141wX\n-- by XaZaWorld\n\nMixed Light Smalls - MIX N' MATCH\nThese mixed light smalls offer a Custy M\u2026\n\u2b509.1 (311 purchases)\n/p3_141wX\n-- by Boomingsales\n\nMix and Match Master Series\nMaster Series \"Mix and Match\" meaning yo\u2026\n\u2b509.9 (701 purchases)\n/p4_141wX\n-- by Surefour\n\nHome /start",
-    "media": true
+   "code": "/p4_1422s",
+   "name": "**Working Man's LD - MIX N' MATCH**",
+   "desc": "__WMLD are a notch below our regular Light\u2026__",
+   "vendor": "Boomingsales",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "oz": 75.0
+   },
+   "price": {
+    "oz": 120.0
+   },
+   "in_stock": true
   },
   {
-    "name": "Our Vendors offer a wide range of high-quality cannabis concentrates, including diamonds, hash rosin, rosin, sauces, shatter, sugars, crumbles, hash and kief, and budders and badders. Each concentrate is carefully crafted for exceptional potency and flavor.",
-    "vendor": "Boomingsales",
-    "descriptor": "-- by Boomingsales",
-    "nose": "",
-    "strain": "",
-    "category": "Concentrates",
-    "tiers": {},
-    "text": "Our Vendors offer a wide range of high-quality cannabis concentrates, including diamonds, hash rosin, rosin, sauces, shatter, sugars, crumbles, hash and kief, and budders and badders. Each concentrate is carefully crafted for exceptional potency and flavor. \n\nDAB - BHO - MIX N' MATCH\n1oz Baller Jars! In my professional opin\u2026\n\u2b509.9 (142 purchases)\n/p0_141wZ\n-- by Boomingsales\n\nBADDER\nGoopy, terpy, gassy-nosed, cake badder-l\u2026\n\u2b508.7 (967 purchases)\n/p1_141wZ\n-- by PotPacks\n\n10g Bubble Hash MIX N' MATCH\nExperience the rich tradition of Morocca\u2026\n\u2b5010 (18 purchases)\n/p2_141wZ\n-- by Boomingsales\n\n1G In House Cold Cure Live Rosin T2\n1G In House Cold Cure Live Rosin Tier 2 \u2026\n\u2b509.9 (172 purchases)\n/p3_141wZ\n-- by Canna Express\n\nBadder Choose your strains\nStrains are \u2022A\u00e7ai \u2022Yuzu \u2022Runtz \u2022Super Sa\u2026\n\u2b509.6 (147 purchases)\n/p4_141wZ\n-- by XaZaWorld\n\nHome /start",
-    "media": true
+   "code": "/p3_14235",
+   "name": "**Premium Exotic - Zours**",
+   "desc": "__The best batch of Zours we've seen thus \u2026__",
+   "vendor": "Boomingsales",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "oz": 250.0
+   },
+   "price": {
+    "oz": 295.0
+   },
+   "in_stock": true
   },
   {
-    "name": "Let them do the work for ya! Regular flower and Concentrate Infused Prerolls",
-    "vendor": "QueenTetra",
-    "descriptor": "-- by QueenTetra",
-    "nose": "",
-    "strain": "",
-    "category": "Pre Rolls",
-    "tiers": {},
-    "text": "Let them do the work for ya! Regular flower and Concentrate Infused Prerolls\n\n\n2G Luigi Dispo and Preroll - REPLICA\nIN HOUSE MADE - PREROLL IS INFUSED WITH \u2026\n\u2b508.7 (330 purchases)\n/p0_141wa\n-- by QueenTetra\n\n2G In House Pre Rolls\n2G In House Pre Rolls CAT 3 Licensed Exo\u2026\n\u2b509.5 (672 purchases)\n/p1_141wa\n-- by Canna Express\n\nBaby Jeeter Rosin Diamonds PrerollsRep\nBaby Jeeter ROSIN diamonds + terp Infuse\u2026\n(4 purchases)\n/p2_141wa\n-- by AmericanCannabis\n\n110 Bundle Box\n$110 Bundle Box $125 Value *Limited Time\u2026\n\u2b5010 (157 purchases)\n/p3_141wa\n-- by OnlyFire\n\nSherbinski Live Rosin Prerolls\nSherbinski live rosin prerolls. Each 10c\u2026\n(3 purchases)\n/p4_141wa\n-- by Best of the Bay",
-    "media": true
+   "code": "/p1_1424i",
+   "name": "**Sweetz Exotics Haunted House Ed n Merch**",
+   "desc": "__Sweetz Haunted House Edition - GLOW IN T\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 1700.0,
+    "oz": 106.25
+   },
+   "price": {
+    "lb": 1850.0,
+    "oz": 151.25
+   },
+   "in_stock": true
   },
   {
-    "name": "This is for all the hash lovers out there!",
-    "vendor": "Canna Express",
-    "descriptor": "-- by Canna Express",
-    "nose": "",
-    "strain": "",
-    "category": "Hash Stash",
-    "tiers": {},
-    "text": "This is for all the hash lovers out there!\n\n1G Live Rosin Tier 2 Cart\n1G Live Rosin Tier 2 Cart In House Multi\u2026\n\u2b509.6 (143 purchases)\n/p0_141wd\n-- by Canna Express\n\nHalf Gram Hash Rosin Disposables\n100% rosin, zero additives. World class \u2026\n\u2b509.9 (118 purchases)\n/p1_141wd\n-- by Boomingsales\n\n10g Bubble Hash MIX N' MATCH\nExperience the rich tradition of Morocca\u2026\n\u2b5010 (18 purchases)\n/p2_141wd\n-- by Boomingsales\n\n1G In House Cold Cure Live Rosin T2\n1G In House Cold Cure Live Rosin Tier 2 \u2026\n\u2b509.9 (172 purchases)\n/p3_141wd\n-- by Canna Express\n\nROSIN - FULL SPECTRUM\n\"Rosin\" is the purest, cleanest, tasties\u2026\n\u2b509.8 (237 purchases)\n/p4_141wd\n-- by PotPacks",
-    "media": true
+   "code": "/p3_14254",
+   "name": "**Green Lantern**",
+   "desc": "__Green Lantern \u2014 $665\u200b Type: 70% Sativa /\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 665.0,
+    "oz": 41.56
+   },
+   "price": {
+    "lb": 815.0,
+    "oz": 86.56
+   },
+   "in_stock": true
   },
   {
-    "name": "This is for all the hash lovers out there!",
-    "vendor": "Canna Express",
-    "descriptor": "-- by Canna Express",
-    "nose": "",
-    "strain": "",
-    "category": "All Vape Products",
-    "tiers": {},
-    "text": "This is for all the hash lovers out there!\n\n1G Live Rosin Tier 2 Cart\n1G Live Rosin Tier 2 Cart In House Multi\u2026\n\u2b509.6 (143 purchases)\n/p0_141wd\n-- by Canna Express\n\nHalf Gram Hash Rosin Disposables\n100% rosin, zero additives. World class \u2026\n\u2b509.9 (118 purchases)\n/p1_141wd\n-- by Boomingsales\n\n10g Bubble Hash MIX N' MATCH\nExperience the rich tradition of Morocca\u2026\n\u2b5010 (18 purchases)\n/p2_141wd\n-- by Boomingsales\n\n1G In House Cold Cure Live Rosin T2\n1G In House Cold Cure Live Rosin Tier 2 \u2026\n\u2b509.9 (172 purchases)\n/p3_141wd\n-- by Canna Express\n\nROSIN - FULL SPECTRUM\n\"Rosin\" is the purest, cleanest, tasties\u2026\n\u2b509.8 (237 purchases)\n/p4_141wd\n-- by PotPacks",
-    "media": true
+   "code": "/p3_14259",
+   "name": "**535 Gasman SMALLS**",
+   "desc": "__GASMAN \u2014 $535(I65/35) \u2014 (OG Kush \u00d7 Chem-\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 535.0,
+    "oz": 33.44
+   },
+   "price": {
+    "lb": 685.0,
+    "oz": 78.44
+   },
+   "in_stock": true
   },
   {
-    "name": "Discover the convenience and potency of our premium cannabis vape products. Available in a variety of strains and flavors, our vapes deliver a smooth and satisfying experience, perfect for both newcomers and seasoned users. Each cartridge and disposable pen is crafted with high-quality cannabis oil, ensuring purity and consistency.",
-    "vendor": "QueenTetra",
-    "descriptor": "-- by QueenTetra",
-    "nose": "",
-    "strain": "",
-    "category": "Mushrooms",
-    "tiers": {},
-    "text": "Discover the convenience and potency of our premium cannabis vape products. Available in a variety of strains and flavors, our vapes deliver a smooth and satisfying experience, perfect for both newcomers and seasoned users. Each cartridge and disposable pen is crafted with high-quality cannabis oil, ensuring purity and consistency. \n\n2g - MuhaMed Disposable - Replica\nMuha 2g Golden Hour Disposables\n\u2b508.1 (1195 purchases)\n/p0_141we\n-- by QueenTetra\n\n2G Grab and Dab - IN HOUSE FILLED\n\u2b509.4 (232 purchases)\n/p1_141we\n-- by QueenTetra\n\nDistillate CAT3 93 PLUS THC\nPure Lab Tested CAT 3 Distillate. ~93% T\u2026\n\u2b509.9 (150 purchases)\n/p2_141we\n-- by Bestcoastbud\n\nFLAVORADE EXTRACTS ONE GRAM\nFLAVORADE EXTRACTS ONE GRAM\u00a0 This Brand \u2026\n\u2b5010 (32 purchases)\n/p3_141we\n-- by The Pharm Depot\n\nAuthentic Ivy 2G\nPostless Dual Flavors Blend Pre Heat CAT\u2026\n\u2b509.8 (1188 purchases)\n/p4_141we\n-- by Nights\n\nHome /start",
-    "media": true
+   "code": "/p4_14259",
+   "name": "**600 SlurriCANS**",
+   "desc": "__SLURRICANS \u2014 $600 (I60/40) \u2014 (Slurricane\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 600.0,
+    "oz": 37.5
+   },
+   "price": {
+    "lb": 750.0,
+    "oz": 82.5
+   },
+   "in_stock": true
   },
   {
-    "name": "Explore our extensive collection of delectable edible products, including chocolates, gummies, candies, tinctures, and syrups. Satisfaction guaranteed!",
-    "vendor": "Surefour",
-    "descriptor": "-- by Surefour",
-    "nose": "",
-    "strain": "",
-    "category": "Edibles",
-    "tiers": {},
-    "text": "Explore our extensive collection of delectable edible products, including chocolates, gummies, candies, tinctures, and syrups. Satisfaction guaranteed!\n\nBeef Jerky isnt Infused, just some good ole beef jerky.\n\nSugar High Gummies 10 x 50mg\nEach bag contains 10 50mg gummies. Apple\u2026\n\u2b5010 (487 purchases)\n/p0_141wj\n-- by Surefour\n\nSugar High Gummies - 500mg\nSugar High Edible Gummies offer a delici\u2026\n\u2b509.8 (278 purchases)\n/p1_141wj\n-- by LeafLink\n\nMarshmallow Cereal Bar - 360mg\nMy marshmallow cereal bars are 360mg of \u2026\n\u2b5010 (62 purchases)\n/p2_141wj\n-- by TheBudFather\n\nTrolli Worm Gummies\nTrolli Worm Gummies 600mg of D9 THC\n\u2b509.9 (104 purchases)\n/p3_141wj\n-- by Canna Express\n\nTHC Lean CannaSyrup 1000mg - 4oz Bottle\nThis is my own Full Spectrum THC Syrup. \u2026\n\u2b509.8 (588 purchases)\n/p4_141wj\n-- by TheBudFather\n\nHome /start",
-    "media": true
+   "code": "/p0_1425b",
+   "name": "**Tangie - 93P1**",
+   "desc": "__$635 - Deps Shop More Ronin Level Flower\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 635.0,
+    "oz": 39.69
+   },
+   "price": {
+    "lb": 785.0,
+    "oz": 84.69
+   },
+   "in_stock": true
   },
   {
-    "name": "Different Shipping options, extra stealth & extra shipping on small orders!",
-    "vendor": "TheHappyCampers9",
-    "descriptor": "-- by TheHappyCampers9",
-    "nose": "",
-    "strain": "",
-    "category": "Shipping Payments Extra Stealth",
-    "tiers": {},
-    "text": "Different Shipping options, extra stealth & extra shipping on small orders!\n\nFedex 2 Day Shipping\nFedex 2 Day $50 + $15 base shipping char\u2026\n\u2b509.6 (52 purchases)\n/p0_141wk\n-- by TheHappyCampers9\n\nFedEx Custom Shipping\nFEDEX Custom Shipping FEDEX 2 DAY / GROU\u2026\n\u2b509.9 (26 purchases)\n/p1_141wk\n-- by AmericanCannabis\n\nFedEx for 4lbs to 6 lbs\n(6 purchases)\n/p2_141wk\n-- by XaZaWorld\n\nFedex Ground Shipping\nFedex Ground $35 + $15 base shipping cha\u2026\n\u2b509.2 (20 purchases)\n/p3_141wk\n-- by TheHappyCampers9\n\nFedEx Ground Shipping\n\ud83d\udce6Optional for non USPS customers \ud83d\udce6Requir\u2026\n(1 purchase)\n/p4_141wk\n-- by Boomingsales",
-    "media": true
+   "code": "/p1_1425p",
+   "name": "**Wholesale Order**",
+   "desc": "__Visit ____s4dojo.com____ for the current invento\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 60.0,
+    "oz": 3.75
+   },
+   "price": {
+    "lb": 210.0,
+    "oz": 48.75
+   },
+   "in_stock": true
   },
   {
-    "name": "Check here for custom listings, extra payments and vendors tip cups.",
-    "vendor": "Surefour",
-    "descriptor": "-- by Surefour",
-    "nose": "",
-    "strain": "",
-    "category": "Custom Orders Packaging Extra Payments ETC",
-    "tiers": {},
-    "text": "Check here for custom listings, extra payments and vendors tip cups. \n\nADD ON ONLY items\nWhat up my ninjas! We have a lot of item\u2026\n\u2b509.8 (38 purchases)\n/p0_141wl\n-- by Surefour\n\nBOTB Custom Mylar\n50ct Custom Mylar bags. ADD ON ONLY\n(New)\n/p1_141wl\n-- by Best of the Bay\n\nCustom Listing\nThis listing should only be used after w\u2026\n(New)\n/p2_141wl\n-- by Boomingsales\n\nCustom Order\nCUSTOM ORDER FORMAT:  YOUR USERNAME (EXA\u2026\n\u2b509.9 (102 purchases)\n/p3_141wl\n-- by QueenTetra\n\nCustom Order\nDM @stonedcannaexpress BEFORE ORDERING T\u2026\n(3 purchases)\n/p4_141wl\n-- by Canna Express",
-    "media": true
+   "code": "/p2_1425p",
+   "name": "**Dojo Samplers**",
+   "desc": "__Senpai $300 7g Master Series, 7g Black B\u2026__",
+   "vendor": "Surefour",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 300.0,
+    "oz": 18.75
+   },
+   "price": {
+    "lb": 450.0,
+    "oz": 63.75
+   },
+   "in_stock": true
   },
   {
-    "name": "Here you'll find all the products vendors are trying to clear out. Come find yourself a deal!!!!",
-    "vendor": "BallerTree",
-    "descriptor": "-- by BallerTree",
-    "nose": "",
-    "strain": "",
-    "category": "Clearance Section",
-    "tiers": {},
-    "text": "Here you'll find all the products vendors are trying to clear out. Come find yourself a deal!!!!\n\nRussian Lato SALE\n(New)\n/p0_141wm\n-- by BallerTree\n\nCream Runtz SALE\n(New)\n/p1_141wm\n-- by BallerTree\n\nBubblegum Runtz SALE\n(1 purchase)\n/p2_141wm\n-- by BallerTree\n\nPurple Dino SALE\n(New)\n/p3_141wm\n-- by BallerTree\n\nBlackBerry Runtz SALE\n(3 purchases)\n/p4_141wm\n-- by BallerTree",
-    "media": true
+   "code": "/p3_1425z",
+   "name": "**Outdoor Flower**",
+   "desc": "__Cheap Weed! $250 a LB! We have some CHEA\u2026__",
+   "vendor": "ValleyHeat",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 250.0,
+    "oz": 15.62
+   },
+   "price": {
+    "lb": 400.0,
+    "oz": 60.62
+   },
+   "in_stock": true
   },
   {
-    "name": "\ud83c\udd95 NEW PRODUCTS \ud83c\udd95",
-    "vendor": "QueenTetra",
-    "descriptor": "-- by QueenTetra",
-    "nose": "",
-    "strain": "",
-    "category": "New Products",
-    "tiers": {},
-    "text": "\ud83c\udd95 NEW PRODUCTS \ud83c\udd95\n\nThe list of recently added products\n\nCandyland - Indoor Exotic BIGS\n(New)\n/p0_141wo\n-- by QueenTetra\n\nStardust - Indoor Exotic BIGS\n(New)\n/p1_141wo\n-- by QueenTetra\n\nPurple Starburst - Indoor Exotic BIGS\n(New)\n/p2_141wo\n-- by QueenTetra\n\nBacio - Light Dep Bigs\n(New)\n/p3_141wo\n-- by QueenTetra\n\nGas Mask - Light Dep Bigs\n(New)\n/p4_141wo\n-- by QueenTetra\n\n\ud83c\udd98 Helpful Commands:\n\ud83d\uded2  /cart Having issues with your cart? /empty_cart\n\ud83d\udecd  /orders  Don't forget to leave a review! \n\ud83d\udd11 /market_pgp",
-    "media": true
+   "code": "/p4_1426q",
+   "name": "**650 Candy Popz**",
+   "desc": "__CANDY POPZ \u2014 $650 (I60/40) \u2014 (Blueberry \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 650.0,
+    "oz": 40.62
+   },
+   "price": {
+    "lb": 800.0,
+    "oz": 85.62
+   },
+   "in_stock": true
   },
   {
-    "name": "\ud83d\udcb2  OUR BESTSELLERS \ud83d\udcb2",
-    "vendor": "dollar value of sales. Highest revenue p",
-    "descriptor": "-- by Nights",
-    "nose": "9",
-    "strain": "",
-    "category": "Best Sellers",
-    "tiers": {},
-    "text": "\ud83d\udcb2  OUR BESTSELLERS \ud83d\udcb2  \n\nThis list of products sorted by dollar value of sales. Highest revenue products appear first.\n\nAuthentic Ivy 2G\nPostless Dual Flavors Blend Pre Heat CAT\u2026\n\u2b509.8 (1188 purchases)\n/p0_141wp\n-- by Nights\n\nClearance 2g dispos\nRandom 2g Dispos These are vendors choic\u2026\n\u2b509.8 (723 purchases)\n/p1_141wp\n-- by DaleDenton2020\n\nDoSiDos_\nLight Deps. 9/10 Nose Indica Dominant 70\u2026\n\u2b509.2 (60 purchases)\n/p2_141wp\n-- by Best of the Bay\n\n2g Dranks - Disposable - Replica\n\u2b509.5 (72 purchases)\n/p3_141wp\n-- by QueenTetra\n\n2G Grab and Dab - IN HOUSE FILLED\n\u2b509.4 (232 purchases)\n/p4_141wp\n-- by QueenTetra\n\n\ud83c\udd98 Helpful Commands:\n\ud83d\uded2  /cart Having issues with your cart? /empty_cart\n\ud83d\udecd  /orders  Don't forget to leave a review! \n\ud83d\udd11 /market_pgp",
-    "media": true
+   "code": "/p1_14276",
+   "name": "**Cadillac Rainbow**",
+   "desc": "__CADILLAC RAINBOW \u2014 $660 Lineage: Runtz \u00d7\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 660.0,
+    "oz": 41.25
+   },
+   "price": {
+    "lb": 810.0,
+    "oz": 86.25
+   },
+   "in_stock": true
   },
   {
-    "name": "\ud83d\udc95MOST POPULAR PRODUCTS \ud83d\udc95",
-    "vendor": "number of the purchases. Most popular ap",
-    "descriptor": "-- by Nights",
-    "nose": "9",
-    "strain": "",
-    "category": "Most Popular",
-    "tiers": {},
-    "text": "\ud83d\udc95MOST POPULAR PRODUCTS \ud83d\udc95\n\nThe list of products sorted by number of the purchases. Most popular appear first. \n\n\nAuthentic Ivy 2G\nPostless Dual Flavors Blend Pre Heat CAT\u2026\n\u2b509.8 (1188 purchases)\n/p0_141wq\n-- by Nights\n\n2g Dranks - Disposable - Replica\n\u2b509.5 (72 purchases)\n/p1_141wq\n-- by QueenTetra\n\n2G In House Pre Rolls\n2G In House Pre Rolls CAT 3 Licensed Exo\u2026\n\u2b509.5 (672 purchases)\n/p2_141wq\n-- by Canna Express\n\nDAB - BHO - MIX N' MATCH\n1oz Baller Jars! In my professional opin\u2026\n\u2b509.9 (142 purchases)\n/p3_141wq\n-- by Boomingsales\n\nDoSiDos_\nLight Deps. 9/10 Nose Indica Dominant 70\u2026\n\u2b509.2 (60 purchases)\n/p4_141wq\n-- by Best of the Bay\n\n\ud83c\udd98 Helpful Commands:\n\ud83d\uded2  /cart Having issues with your cart? /empty_cart\n\ud83d\udecd  /orders  Don't forget to leave a review! \n\ud83d\udd11 /market_pgp",
-    "media": true
+   "code": "/p3_1427m",
+   "name": "**480 Peaches And Cream SMALLS**",
+   "desc": "__PEACHES AND CREAM \u2014 $480(H55/45) \u2014 (Peac\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 480.0,
+    "oz": 30.0
+   },
+   "price": {
+    "lb": 630.0,
+    "oz": 75.0
+   },
+   "in_stock": true
   },
   {
-    "name": "\u2b50\ufe0f TOP-RATED PRODUCTS \u2b50\ufe0f",
-    "vendor": "ratings. Highest rated appear first.",
-    "descriptor": "-- by TheBudFather",
-    "nose": "",
-    "strain": "",
-    "category": "Top Rated",
-    "tiers": {},
-    "text": "\u2b50\ufe0f TOP-RATED PRODUCTS \u2b50\ufe0f\n\nThe list of products sorted sorted by ratings. Highest rated appear first. \n\n1000mg Bachan's Japanese Sauces\nThese are Bachan's legendary Japanese sa\u2026\n\u2b5010 (32 purchases)\n/p0_141wr\n-- by TheBudFather\n\n1000mg Mike's Hot Honey\nThis is a blend of Mike's Hot Honey infu\u2026\n\u2b5010 (39 purchases)\n/p1_141wr\n-- by TheBudFather\n\n100G THCa Isolate\n100 Grams THCa Isolate (Sand) Pure and p\u2026\n\u2b5010 (26 purchases)\n/p2_141wr\n-- by Canna Express\n\n100mg Camino Gummies\n100mg Camino Gummies and Camino Sours Ve\u2026\n\u2b5010 (11 purchases)\n/p3_141wr\n-- by OnlyFire\n\n10g Bubble Hash MIX N' MATCH\nExperience the rich tradition of Morocca\u2026\n\u2b5010 (18 purchases)\n/p4_141wr\n-- by Boomingsales\n\n\ud83c\udd98 Helpful Commands:\n\ud83d\uded2  /cart Having issues with your cart? /empty_cart\n\ud83d\udecd  /orders  Don't forget to leave a review! \n\ud83d\udd11 /market_pgp",
-    "media": true
+   "code": "/p4_1427m",
+   "name": "**500 Frosty Sugar Candy SMALLS**",
+   "desc": "__FROSTY SUGAR CANDY \u2014 $500(I55/45) \u2014 (Sug\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 500.0,
+    "oz": 31.25
+   },
+   "price": {
+    "lb": 650.0,
+    "oz": 76.25
+   },
+   "in_stock": true
   },
   {
-    "name": "\u2b50\ufe0f TOP-RATED PRODUCTS \u2b50\ufe0f",
-    "vendor": "ratings. Highest rated appear first.",
-    "descriptor": "-- by TheBudFather",
-    "nose": "",
-    "strain": "",
-    "category": "Vendor List",
-    "tiers": {},
-    "text": "\u2b50\ufe0f TOP-RATED PRODUCTS \u2b50\ufe0f\n\nThe list of products sorted sorted by ratings. Highest rated appear first. \n\n1000mg Bachan's Japanese Sauces\nThese are Bachan's legendary Japanese sa\u2026\n\u2b5010 (32 purchases)\n/p0_141wr\n-- by TheBudFather\n\n1000mg Mike's Hot Honey\nThis is a blend of Mike's Hot Honey infu\u2026\n\u2b5010 (39 purchases)\n/p1_141wr\n-- by TheBudFather\n\n100G THCa Isolate\n100 Grams THCa Isolate (Sand) Pure and p\u2026\n\u2b5010 (26 purchases)\n/p2_141wr\n-- by Canna Express\n\n100mg Camino Gummies\n100mg Camino Gummies and Camino Sours Ve\u2026\n\u2b5010 (11 purchases)\n/p3_141wr\n-- by OnlyFire\n\n10g Bubble Hash MIX N' MATCH\nExperience the rich tradition of Morocca\u2026\n\u2b5010 (18 purchases)\n/p4_141wr\n-- by Boomingsales\n\n\ud83c\udd98 Helpful Commands:\n\ud83d\uded2  /cart Having issues with your cart? /empty_cart\n\ud83d\udecd  /orders  Don't forget to leave a review! \n\ud83d\udd11 /market_pgp",
-    "media": true
+   "code": "/p0_1427q",
+   "name": "**500 Slush Mintz SMALLS**",
+   "desc": "__SLUSH MINTZ \u2014 $600 / $500(I60/40) \u2014 (Slu\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 600.0,
+    "oz": 500.0
+   },
+   "price": {
+    "lb": 750.0,
+    "oz": 545.0
+   },
+   "in_stock": true
   },
   {
-    "name": "110 Bundle Box",
-    "vendor": "OnlyFire",
-    "descriptor": "-- by OnlyFire",
-    "nose": "",
-    "strain": "",
-    "category": "Promotions",
-    "tiers": {},
-    "text": "110 Bundle Box\n$110 Bundle Box $125 Value *Limited Time\u2026\n\u2b5010 (157 purchases)\n/p0_141wt\n-- by OnlyFire\n\n1200mg Hershey's Syrup - 3 Flavors Avail\nThis is the original Hershey's Syrup inf\u2026\n\u2b5010 (33 purchases)\n/p1_141wt\n-- by TheBudFather\n\n1 GRAM CARTRIDGES - FLASH SALE\nHUGE LIMITED TIME CART SALE - $5.95 each\u2026\n\u2b509.8 (803 purchases)\n/p2_141wt\n-- by PotPacks\n\n1 LB Mix of 4 Tiers\n4oz of each tier. You may pick up to 2 s\u2026\n\u2b5010 (36 purchases)\n/p3_141wt\n-- by Surefour\n\n1oz SPECIAL Dealer's Choice\nThis is a dealer's choice listing for ou\u2026\n\u2b5010 (29 purchases)\n/p4_141wt\n-- by Surefour",
-    "media": true
+   "code": "/p1_1427q",
+   "name": "**535 Bl3 Junkie SMALLS**",
+   "desc": "__BL3 JUNKIE \u2014 $535(I60/40) \u2014 (GMO Cookies\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 535.0,
+    "oz": 33.44
+   },
+   "price": {
+    "lb": 685.0,
+    "oz": 78.44
+   },
+   "in_stock": true
   },
   {
-    "name": "OnlyFire Super Lemon Haze",
-    "vendor": "Si-Deals",
-    "descriptor": "-- by Si-Deals",
-    "nose": "",
-    "strain": "",
-    "category": "Si Deals",
-    "tiers": {},
-    "text": "OnlyFire Super Lemon Haze\n\ud83d\udd25 OnlyFire is letting go of 4 ounces of \u2026\n(3 purchases)\n/p0_141wu\n-- by Si-Deals\n\nTelegram Premium\n\ud83e\udd2bDo you need Telegram Premium and do you\u2026\n(3 purchases)\n/p1_141wu\n-- by Si-Deals\n\nTelegram Stars\n\ud83e\udd2bDo you need Telegram Stars and do you n\u2026\n(New)\n/p2_141wu\n-- by Si-Deals\n\nVendors Choice 8th - BOTB PLUSHIE\nADD-ON ONLY / Shark \"TOAD\" Venom 3.5 Wit\u2026\n\u2b5010 (22 purchases)\n/p3_141wu\n-- by Best of the Bay",
-    "media": true
+   "code": "/p2_1427q",
+   "name": "**535 Gelato SMALLS**",
+   "desc": "__GELATO \u2014 $535(H55/45) \u2014 (Sunset Sherbet \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 535.0,
+    "oz": 33.44
+   },
+   "price": {
+    "lb": 685.0,
+    "oz": 78.44
+   },
+   "in_stock": true
   },
   {
-    "name": "OnlyFire Super Lemon Haze",
-    "vendor": "Si-Deals",
-    "descriptor": "-- by Si-Deals",
-    "nose": "",
-    "strain": "",
-    "category": "m_marketwebsites",
-    "tiers": {},
-    "text": "OnlyFire Super Lemon Haze\n\ud83d\udd25 OnlyFire is letting go of 4 ounces of \u2026\n(3 purchases)\n/p0_141wu\n-- by Si-Deals\n\nTelegram Premium\n\ud83e\udd2bDo you need Telegram Premium and do you\u2026\n(3 purchases)\n/p1_141wu\n-- by Si-Deals\n\nTelegram Stars\n\ud83e\udd2bDo you need Telegram Stars and do you n\u2026\n(New)\n/p2_141wu\n-- by Si-Deals\n\nVendors Choice 8th - BOTB PLUSHIE\nADD-ON ONLY / Shark \"TOAD\" Venom 3.5 Wit\u2026\n\u2b5010 (22 purchases)\n/p3_141wu\n-- by Best of the Bay",
-    "media": true
+   "code": "/p3_1427q",
+   "name": "**535 Neon Swirlz SMALLS**",
+   "desc": "__NEON SWIRLZ \u2014 $660 / $535(H50/50) \u2014 (Rai\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 660.0,
+    "oz": 535.0
+   },
+   "price": {
+    "lb": 810.0,
+    "oz": 580.0
+   },
+   "in_stock": true
   },
   {
-    "name": "OnlyFire Super Lemon Haze",
-    "vendor": "Si-Deals",
-    "descriptor": "-- by Si-Deals",
-    "nose": "",
-    "strain": "",
-    "category": "m_learnpgp",
-    "tiers": {},
-    "text": "OnlyFire Super Lemon Haze\n\ud83d\udd25 OnlyFire is letting go of 4 ounces of \u2026\n(3 purchases)\n/p0_141wu\n-- by Si-Deals\n\nTelegram Premium\n\ud83e\udd2bDo you need Telegram Premium and do you\u2026\n(3 purchases)\n/p1_141wu\n-- by Si-Deals\n\nTelegram Stars\n\ud83e\udd2bDo you need Telegram Stars and do you n\u2026\n(New)\n/p2_141wu\n-- by Si-Deals\n\nVendors Choice 8th - BOTB PLUSHIE\nADD-ON ONLY / Shark \"TOAD\" Venom 3.5 Wit\u2026\n\u2b5010 (22 purchases)\n/p3_141wu\n-- by Best of the Bay",
-    "media": true
+   "code": "/p4_1427q",
+   "name": "**535 POP SMALLS**",
+   "desc": "__POP \u2014 $535(H55/45) \u2014 (Candy Pop Hybrid \u00d7\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 535.0,
+    "oz": 33.44
+   },
+   "price": {
+    "lb": 685.0,
+    "oz": 78.44
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_14280",
+   "name": "**535 Tesla Cake SMALLS**",
+   "desc": "__TESLA CAKE \u2014 $535(I60/40) \u2014 (Wedding Cak\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 535.0,
+    "oz": 33.44
+   },
+   "price": {
+    "lb": 685.0,
+    "oz": 78.44
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_14280",
+   "name": "**550 Animal Runtz SMALLS**",
+   "desc": "__ANIMAL RUNTZ \u2014 $670 / $550(I60/40) \u2014 (An\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 670.0,
+    "oz": 550.0
+   },
+   "price": {
+    "lb": 820.0,
+    "oz": 595.0
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_14280",
+   "name": "**560 Candylandia SMALLS**",
+   "desc": "__CANDYLANDIA \u2014 $635(S65/35) \u2014 (Candyland \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 635.0,
+    "oz": 39.69
+   },
+   "price": {
+    "lb": 785.0,
+    "oz": 84.69
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p4_14280",
+   "name": "**560 Sugar Rimz SMALLS**",
+   "desc": "__SUGAR RIMZ \u2014 $660(H55/45) \u2014 (Sugar Cooki\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 660.0,
+    "oz": 41.25
+   },
+   "price": {
+    "lb": 810.0,
+    "oz": 86.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_14289",
+   "name": "**580 Gas Og**",
+   "desc": "__GAS OG \u2014 $580 (I70/30) \u2014 (OG Kush \u00d7 Gas-\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 580.0,
+    "oz": 36.25
+   },
+   "price": {
+    "lb": 730.0,
+    "oz": 81.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_14289",
+   "name": "**580 PAVE SMALLS**",
+   "desc": "__PAV\u00c9 \u2014 $580(I60/40) \u2014 (Paris OG \u00d7 The Me\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 580.0,
+    "oz": 36.25
+   },
+   "price": {
+    "lb": 730.0,
+    "oz": 81.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_14289",
+   "name": "**599 Apple Pie**",
+   "desc": "__APPLE PIE \u2014 $599 (H55/45) \u2014 (Apple Fritt\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 599.0,
+    "oz": 37.44
+   },
+   "price": {
+    "lb": 749.0,
+    "oz": 82.44
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_14289",
+   "name": "**600 Bl3 Neptunes SMALLS**",
+   "desc": "__BL3 NEPTUNES \u2014 $600(H55/45) \u2014 (Blue Drea\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 600.0,
+    "oz": 37.5
+   },
+   "price": {
+    "lb": 750.0,
+    "oz": 82.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p4_14289",
+   "name": "**600 OJ**",
+   "desc": "__OJ \u2014 $600 (S60/40) \u2014 (Orange Juice \u00d7 Ora\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 600.0,
+    "oz": 37.5
+   },
+   "price": {
+    "lb": 750.0,
+    "oz": 82.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_1428h",
+   "name": "**700 Bl3 Nukes**",
+   "desc": "__BL3 NUKES \u2014 $700(I60/40) \u2014 (GMO Cookies \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 700.0,
+    "oz": 43.75
+   },
+   "price": {
+    "lb": 850.0,
+    "oz": 88.75
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1428h",
+   "name": "**700 Goat Cheesecake**",
+   "desc": "__GOAT CHEESECAKE \u2014 $700(I60/40) \u2014 (Cheese\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 700.0,
+    "oz": 43.75
+   },
+   "price": {
+    "lb": 850.0,
+    "oz": 88.75
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_1428h",
+   "name": "**835 Cherry BlowPop**",
+   "desc": "__CHERRY BLOWPOPZ \u2014 $835 (H55/45) \u2014 (Cherr\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 835.0,
+    "oz": 52.19
+   },
+   "price": {
+    "lb": 985.0,
+    "oz": 97.19
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_1428h",
+   "name": "**840 Octane Pressure**",
+   "desc": "__OCTANE PRESSURE \u2014 $840 (I60/40) \u2014 (High \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 840.0,
+    "oz": 52.5
+   },
+   "price": {
+    "lb": 990.0,
+    "oz": 97.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p4_1428h",
+   "name": "**840 Sweet Tart Runtz**",
+   "desc": "__SWEET TART RUNTZ \u2014 $840 (H55/45) \u2014 (Swee\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 840.0,
+    "oz": 52.5
+   },
+   "price": {
+    "lb": 990.0,
+    "oz": 97.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_1428o",
+   "name": "**850 Super Runtz**",
+   "desc": "__SUPER RUNTZ \u2014 $850 (I65/35) \u2014 (Super Lem\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 850.0,
+    "oz": 53.12
+   },
+   "price": {
+    "lb": 1000.0,
+    "oz": 98.12
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1428o",
+   "name": "**860 Blueberry Skittlez**",
+   "desc": "__BLUEBERRY SKITTLES \u2014 $860 (I60/40) \u2014 (Bl\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 860.0,
+    "oz": 53.75
+   },
+   "price": {
+    "lb": 1010.0,
+    "oz": 98.75
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_1428o",
+   "name": "**860 Octane Candy**",
+   "desc": "__OCTANE CANDY \u2014 $860 (I60/40) \u2014 (Gas Face\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 860.0,
+    "oz": 53.75
+   },
+   "price": {
+    "lb": 1010.0,
+    "oz": 98.75
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_1428o",
+   "name": "**880 Candy Crusherz**",
+   "desc": "__CANDY CRUSHERZ \u2014 $880 (H55/45) \u2014 (Candy \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 880.0,
+    "oz": 55.0
+   },
+   "price": {
+    "lb": 1030.0,
+    "oz": 100.0
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p4_1428o",
+   "name": "**880 Maraschino Cherriez**",
+   "desc": "__MARASCHINO CHERRIES \u2014 $880(I60/40) \u2014 (Ch\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 880.0,
+    "oz": 55.0
+   },
+   "price": {
+    "lb": 1030.0,
+    "oz": 100.0
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_1428w",
+   "name": "**880 Runtz Jealousy**",
+   "desc": "__RUNTZ JEALOUSY \u2014 $880 (I55/45) \u2014 (Runtz \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 880.0,
+    "oz": 55.0
+   },
+   "price": {
+    "lb": 1030.0,
+    "oz": 100.0
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1428w",
+   "name": "**Banana Split**",
+   "desc": "__Banana Split \u2014 $660 (H55/45) \u2014 (Banana K\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 660.0,
+    "oz": 41.25
+   },
+   "price": {
+    "lb": 810.0,
+    "oz": 86.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_1428w",
+   "name": "**Beef Tallow**",
+   "desc": "__BEEF TALLOW \u2014 $1,450 Estimated Lineage: \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 1450.0,
+    "oz": 90.62
+   },
+   "price": {
+    "lb": 1600.0,
+    "oz": 135.62
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_14299",
+   "name": "**Blue Pop Rocks - 95B6**",
+   "desc": "__$880 - Indoors Shop More Shinobi Level F\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 880.0,
+    "oz": 55.0
+   },
+   "price": {
+    "lb": 1030.0,
+    "oz": 100.0
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p4_14299",
+   "name": "**Blue Zushi - 30A4**",
+   "desc": "__$1315 - Indoors Shop More Jonin Level Fl\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 1315.0,
+    "oz": 82.19
+   },
+   "price": {
+    "lb": 1465.0,
+    "oz": 127.19
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_1429a",
+   "name": "**Dulce de Guava**",
+   "desc": "__Dulce De Guava \u2014 $635 (H60/40) \u2014 (Dulce \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 635.0,
+    "oz": 39.69
+   },
+   "price": {
+    "lb": 785.0,
+    "oz": 84.69
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1429a",
+   "name": "**Durban Cookies - 52A4**",
+   "desc": "__$825 - Indoors Shop More Shinobi Level F\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 825.0,
+    "oz": 51.56
+   },
+   "price": {
+    "lb": 975.0,
+    "oz": 96.56
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_1429a",
+   "name": "**Frosted Runtz - 35C4**",
+   "desc": "__$500 - Deps Shop More Recruit Level Flow\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 500.0,
+    "oz": 31.25
+   },
+   "price": {
+    "lb": 650.0,
+    "oz": 76.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1429f",
+   "name": "**Galactic Warheadz - 23E2**",
+   "desc": "__$660 - Deps Shop More Ronin Level Flower\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 660.0,
+    "oz": 41.25
+   },
+   "price": {
+    "lb": 810.0,
+    "oz": 86.25
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_1429f",
+   "name": "**Garlic Popperz**",
+   "desc": "__Garlic Popperz \u2014 $680 (I60/40) \u2014 (GMO x \u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 680.0,
+    "oz": 42.5
+   },
+   "price": {
+    "lb": 830.0,
+    "oz": 87.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1429n",
+   "name": "**Gorilla Glue - 75F2**",
+   "desc": "__$1480 - Indoors Shop More Jonin Level Fl\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 1480.0,
+    "oz": 92.5
+   },
+   "price": {
+    "lb": 1630.0,
+    "oz": 137.5
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p2_1429n",
+   "name": "**Gorilla Runtz**",
+   "desc": "__GORILLA RUNTZ \u2014 $700 Lineage: GG4 \u00d7 Bubb\u2026__",
+   "vendor": "AmericanCannabis",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 700.0,
+    "oz": 43.75
+   },
+   "price": {
+    "lb": 850.0,
+    "oz": 88.75
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1429s",
+   "name": "**Ice Cream Cake - 14L4**",
+   "desc": "__$555 - Deps Shop More Recruit Level Flow\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 555.0,
+    "oz": 34.69
+   },
+   "price": {
+    "lb": 705.0,
+    "oz": 79.69
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p3_1429s",
+   "name": "**Jack Herer - 89M15**",
+   "desc": "__$715 - Indoors Shop More Shinobi Level F\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 715.0,
+    "oz": 44.69
+   },
+   "price": {
+    "lb": 865.0,
+    "oz": 89.69
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p0_1429x",
+   "name": "**Lantz - 37C14**",
+   "desc": "__$1535 - Indoors Shop More Jonin Level Fl\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 1535.0,
+    "oz": 95.94
+   },
+   "price": {
+    "lb": 1685.0,
+    "oz": 140.94
+   },
+   "in_stock": true
+  },
+  {
+   "code": "/p1_1429x",
+   "name": "**Lantz - 75O2**",
+   "desc": "__$605 - Deps Shop More Ronin Level Flower\u2026__",
+   "vendor": "Surefour Wholesale Emporium",
+   "rating": null,
+   "purchases": null,
+   "category": "/m_flower",
+   "cost": {
+    "lb": 605.0,
+    "oz": 37.81
+   },
+   "price": {
+    "lb": 755.0,
+    "oz": 82.81
+   },
+   "in_stock": true
   }
-]
+ ]
+}

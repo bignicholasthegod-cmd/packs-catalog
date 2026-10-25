@@ -1,1 +1,871 @@
-[]
+{
+ "generated": "2026-10-25T19:59:46Z",
+ "margin": {
+  "lb": 150.0,
+  "oz": 45.0
+ },
+ "categories": {
+  "/m_flower": [
+   {
+    "name": "**Working Man's LD - MIX N' MATCH**",
+    "desc": "__WMLD are a notch below our regular Light\u2026__",
+    "vendor": "Boomingsales",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "oz": 75.0
+    },
+    "price": {
+     "oz": 120.0
+    },
+    "code": "/p4_1422s"
+   },
+   {
+    "name": "**Premium Exotic - Zours**",
+    "desc": "__The best batch of Zours we've seen thus \u2026__",
+    "vendor": "Boomingsales",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "oz": 250.0
+    },
+    "price": {
+     "oz": 295.0
+    },
+    "code": "/p3_14235"
+   },
+   {
+    "name": "**Sweetz Exotics Haunted House Ed n Merch**",
+    "desc": "__Sweetz Haunted House Edition - GLOW IN T\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 1700.0,
+     "oz": 106.25
+    },
+    "price": {
+     "lb": 1850.0,
+     "oz": 151.25
+    },
+    "code": "/p1_1424i"
+   },
+   {
+    "name": "**Green Lantern**",
+    "desc": "__Green Lantern \u2014 $665\u200b Type: 70% Sativa /\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 665.0,
+     "oz": 41.56
+    },
+    "price": {
+     "lb": 815.0,
+     "oz": 86.56
+    },
+    "code": "/p3_14254"
+   },
+   {
+    "name": "**535 Gasman SMALLS**",
+    "desc": "__GASMAN \u2014 $535(I65/35) \u2014 (OG Kush \u00d7 Chem-\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 535.0,
+     "oz": 33.44
+    },
+    "price": {
+     "lb": 685.0,
+     "oz": 78.44
+    },
+    "code": "/p3_14259"
+   },
+   {
+    "name": "**600 SlurriCANS**",
+    "desc": "__SLURRICANS \u2014 $600 (I60/40) \u2014 (Slurricane\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 600.0,
+     "oz": 37.5
+    },
+    "price": {
+     "lb": 750.0,
+     "oz": 82.5
+    },
+    "code": "/p4_14259"
+   },
+   {
+    "name": "**Tangie - 93P1**",
+    "desc": "__$635 - Deps Shop More Ronin Level Flower\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 635.0,
+     "oz": 39.69
+    },
+    "price": {
+     "lb": 785.0,
+     "oz": 84.69
+    },
+    "code": "/p0_1425b"
+   },
+   {
+    "name": "**Wholesale Order**",
+    "desc": "__Visit ____s4dojo.com____ for the current invento\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 60.0,
+     "oz": 3.75
+    },
+    "price": {
+     "lb": 210.0,
+     "oz": 48.75
+    },
+    "code": "/p1_1425p"
+   },
+   {
+    "name": "**Dojo Samplers**",
+    "desc": "__Senpai $300 7g Master Series, 7g Black B\u2026__",
+    "vendor": "Surefour",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 300.0,
+     "oz": 18.75
+    },
+    "price": {
+     "lb": 450.0,
+     "oz": 63.75
+    },
+    "code": "/p2_1425p"
+   },
+   {
+    "name": "**Outdoor Flower**",
+    "desc": "__Cheap Weed! $250 a LB! We have some CHEA\u2026__",
+    "vendor": "ValleyHeat",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 250.0,
+     "oz": 15.62
+    },
+    "price": {
+     "lb": 400.0,
+     "oz": 60.62
+    },
+    "code": "/p3_1425z"
+   },
+   {
+    "name": "**650 Candy Popz**",
+    "desc": "__CANDY POPZ \u2014 $650 (I60/40) \u2014 (Blueberry \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 650.0,
+     "oz": 40.62
+    },
+    "price": {
+     "lb": 800.0,
+     "oz": 85.62
+    },
+    "code": "/p4_1426q"
+   },
+   {
+    "name": "**Cadillac Rainbow**",
+    "desc": "__CADILLAC RAINBOW \u2014 $660 Lineage: Runtz \u00d7\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 660.0,
+     "oz": 41.25
+    },
+    "price": {
+     "lb": 810.0,
+     "oz": 86.25
+    },
+    "code": "/p1_14276"
+   },
+   {
+    "name": "**480 Peaches And Cream SMALLS**",
+    "desc": "__PEACHES AND CREAM \u2014 $480(H55/45) \u2014 (Peac\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 480.0,
+     "oz": 30.0
+    },
+    "price": {
+     "lb": 630.0,
+     "oz": 75.0
+    },
+    "code": "/p3_1427m"
+   },
+   {
+    "name": "**500 Frosty Sugar Candy SMALLS**",
+    "desc": "__FROSTY SUGAR CANDY \u2014 $500(I55/45) \u2014 (Sug\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 500.0,
+     "oz": 31.25
+    },
+    "price": {
+     "lb": 650.0,
+     "oz": 76.25
+    },
+    "code": "/p4_1427m"
+   },
+   {
+    "name": "**500 Slush Mintz SMALLS**",
+    "desc": "__SLUSH MINTZ \u2014 $600 / $500(I60/40) \u2014 (Slu\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 600.0,
+     "oz": 500.0
+    },
+    "price": {
+     "lb": 750.0,
+     "oz": 545.0
+    },
+    "code": "/p0_1427q"
+   },
+   {
+    "name": "**535 Bl3 Junkie SMALLS**",
+    "desc": "__BL3 JUNKIE \u2014 $535(I60/40) \u2014 (GMO Cookies\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 535.0,
+     "oz": 33.44
+    },
+    "price": {
+     "lb": 685.0,
+     "oz": 78.44
+    },
+    "code": "/p1_1427q"
+   },
+   {
+    "name": "**535 Gelato SMALLS**",
+    "desc": "__GELATO \u2014 $535(H55/45) \u2014 (Sunset Sherbet \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 535.0,
+     "oz": 33.44
+    },
+    "price": {
+     "lb": 685.0,
+     "oz": 78.44
+    },
+    "code": "/p2_1427q"
+   },
+   {
+    "name": "**535 Neon Swirlz SMALLS**",
+    "desc": "__NEON SWIRLZ \u2014 $660 / $535(H50/50) \u2014 (Rai\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 660.0,
+     "oz": 535.0
+    },
+    "price": {
+     "lb": 810.0,
+     "oz": 580.0
+    },
+    "code": "/p3_1427q"
+   },
+   {
+    "name": "**535 POP SMALLS**",
+    "desc": "__POP \u2014 $535(H55/45) \u2014 (Candy Pop Hybrid \u00d7\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 535.0,
+     "oz": 33.44
+    },
+    "price": {
+     "lb": 685.0,
+     "oz": 78.44
+    },
+    "code": "/p4_1427q"
+   },
+   {
+    "name": "**535 Tesla Cake SMALLS**",
+    "desc": "__TESLA CAKE \u2014 $535(I60/40) \u2014 (Wedding Cak\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 535.0,
+     "oz": 33.44
+    },
+    "price": {
+     "lb": 685.0,
+     "oz": 78.44
+    },
+    "code": "/p0_14280"
+   },
+   {
+    "name": "**550 Animal Runtz SMALLS**",
+    "desc": "__ANIMAL RUNTZ \u2014 $670 / $550(I60/40) \u2014 (An\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 670.0,
+     "oz": 550.0
+    },
+    "price": {
+     "lb": 820.0,
+     "oz": 595.0
+    },
+    "code": "/p1_14280"
+   },
+   {
+    "name": "**560 Candylandia SMALLS**",
+    "desc": "__CANDYLANDIA \u2014 $635(S65/35) \u2014 (Candyland \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 635.0,
+     "oz": 39.69
+    },
+    "price": {
+     "lb": 785.0,
+     "oz": 84.69
+    },
+    "code": "/p3_14280"
+   },
+   {
+    "name": "**560 Sugar Rimz SMALLS**",
+    "desc": "__SUGAR RIMZ \u2014 $660(H55/45) \u2014 (Sugar Cooki\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 660.0,
+     "oz": 41.25
+    },
+    "price": {
+     "lb": 810.0,
+     "oz": 86.25
+    },
+    "code": "/p4_14280"
+   },
+   {
+    "name": "**580 Gas Og**",
+    "desc": "__GAS OG \u2014 $580 (I70/30) \u2014 (OG Kush \u00d7 Gas-\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 580.0,
+     "oz": 36.25
+    },
+    "price": {
+     "lb": 730.0,
+     "oz": 81.25
+    },
+    "code": "/p0_14289"
+   },
+   {
+    "name": "**580 PAVE SMALLS**",
+    "desc": "__PAV\u00c9 \u2014 $580(I60/40) \u2014 (Paris OG \u00d7 The Me\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 580.0,
+     "oz": 36.25
+    },
+    "price": {
+     "lb": 730.0,
+     "oz": 81.25
+    },
+    "code": "/p1_14289"
+   },
+   {
+    "name": "**599 Apple Pie**",
+    "desc": "__APPLE PIE \u2014 $599 (H55/45) \u2014 (Apple Fritt\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 599.0,
+     "oz": 37.44
+    },
+    "price": {
+     "lb": 749.0,
+     "oz": 82.44
+    },
+    "code": "/p2_14289"
+   },
+   {
+    "name": "**600 Bl3 Neptunes SMALLS**",
+    "desc": "__BL3 NEPTUNES \u2014 $600(H55/45) \u2014 (Blue Drea\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 600.0,
+     "oz": 37.5
+    },
+    "price": {
+     "lb": 750.0,
+     "oz": 82.5
+    },
+    "code": "/p3_14289"
+   },
+   {
+    "name": "**600 OJ**",
+    "desc": "__OJ \u2014 $600 (S60/40) \u2014 (Orange Juice \u00d7 Ora\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 600.0,
+     "oz": 37.5
+    },
+    "price": {
+     "lb": 750.0,
+     "oz": 82.5
+    },
+    "code": "/p4_14289"
+   },
+   {
+    "name": "**700 Bl3 Nukes**",
+    "desc": "__BL3 NUKES \u2014 $700(I60/40) \u2014 (GMO Cookies \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 700.0,
+     "oz": 43.75
+    },
+    "price": {
+     "lb": 850.0,
+     "oz": 88.75
+    },
+    "code": "/p0_1428h"
+   },
+   {
+    "name": "**700 Goat Cheesecake**",
+    "desc": "__GOAT CHEESECAKE \u2014 $700(I60/40) \u2014 (Cheese\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 700.0,
+     "oz": 43.75
+    },
+    "price": {
+     "lb": 850.0,
+     "oz": 88.75
+    },
+    "code": "/p1_1428h"
+   },
+   {
+    "name": "**835 Cherry BlowPop**",
+    "desc": "__CHERRY BLOWPOPZ \u2014 $835 (H55/45) \u2014 (Cherr\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 835.0,
+     "oz": 52.19
+    },
+    "price": {
+     "lb": 985.0,
+     "oz": 97.19
+    },
+    "code": "/p2_1428h"
+   },
+   {
+    "name": "**840 Octane Pressure**",
+    "desc": "__OCTANE PRESSURE \u2014 $840 (I60/40) \u2014 (High \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 840.0,
+     "oz": 52.5
+    },
+    "price": {
+     "lb": 990.0,
+     "oz": 97.5
+    },
+    "code": "/p3_1428h"
+   },
+   {
+    "name": "**840 Sweet Tart Runtz**",
+    "desc": "__SWEET TART RUNTZ \u2014 $840 (H55/45) \u2014 (Swee\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 840.0,
+     "oz": 52.5
+    },
+    "price": {
+     "lb": 990.0,
+     "oz": 97.5
+    },
+    "code": "/p4_1428h"
+   },
+   {
+    "name": "**850 Super Runtz**",
+    "desc": "__SUPER RUNTZ \u2014 $850 (I65/35) \u2014 (Super Lem\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 850.0,
+     "oz": 53.12
+    },
+    "price": {
+     "lb": 1000.0,
+     "oz": 98.12
+    },
+    "code": "/p0_1428o"
+   },
+   {
+    "name": "**860 Blueberry Skittlez**",
+    "desc": "__BLUEBERRY SKITTLES \u2014 $860 (I60/40) \u2014 (Bl\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 860.0,
+     "oz": 53.75
+    },
+    "price": {
+     "lb": 1010.0,
+     "oz": 98.75
+    },
+    "code": "/p1_1428o"
+   },
+   {
+    "name": "**860 Octane Candy**",
+    "desc": "__OCTANE CANDY \u2014 $860 (I60/40) \u2014 (Gas Face\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 860.0,
+     "oz": 53.75
+    },
+    "price": {
+     "lb": 1010.0,
+     "oz": 98.75
+    },
+    "code": "/p2_1428o"
+   },
+   {
+    "name": "**880 Candy Crusherz**",
+    "desc": "__CANDY CRUSHERZ \u2014 $880 (H55/45) \u2014 (Candy \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 880.0,
+     "oz": 55.0
+    },
+    "price": {
+     "lb": 1030.0,
+     "oz": 100.0
+    },
+    "code": "/p3_1428o"
+   },
+   {
+    "name": "**880 Maraschino Cherriez**",
+    "desc": "__MARASCHINO CHERRIES \u2014 $880(I60/40) \u2014 (Ch\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 880.0,
+     "oz": 55.0
+    },
+    "price": {
+     "lb": 1030.0,
+     "oz": 100.0
+    },
+    "code": "/p4_1428o"
+   },
+   {
+    "name": "**880 Runtz Jealousy**",
+    "desc": "__RUNTZ JEALOUSY \u2014 $880 (I55/45) \u2014 (Runtz \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 880.0,
+     "oz": 55.0
+    },
+    "price": {
+     "lb": 1030.0,
+     "oz": 100.0
+    },
+    "code": "/p0_1428w"
+   },
+   {
+    "name": "**Banana Split**",
+    "desc": "__Banana Split \u2014 $660 (H55/45) \u2014 (Banana K\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 660.0,
+     "oz": 41.25
+    },
+    "price": {
+     "lb": 810.0,
+     "oz": 86.25
+    },
+    "code": "/p1_1428w"
+   },
+   {
+    "name": "**Beef Tallow**",
+    "desc": "__BEEF TALLOW \u2014 $1,450 Estimated Lineage: \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 1450.0,
+     "oz": 90.62
+    },
+    "price": {
+     "lb": 1600.0,
+     "oz": 135.62
+    },
+    "code": "/p2_1428w"
+   },
+   {
+    "name": "**Blue Pop Rocks - 95B6**",
+    "desc": "__$880 - Indoors Shop More Shinobi Level F\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 880.0,
+     "oz": 55.0
+    },
+    "price": {
+     "lb": 1030.0,
+     "oz": 100.0
+    },
+    "code": "/p2_14299"
+   },
+   {
+    "name": "**Blue Zushi - 30A4**",
+    "desc": "__$1315 - Indoors Shop More Jonin Level Fl\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 1315.0,
+     "oz": 82.19
+    },
+    "price": {
+     "lb": 1465.0,
+     "oz": 127.19
+    },
+    "code": "/p4_14299"
+   },
+   {
+    "name": "**Dulce de Guava**",
+    "desc": "__Dulce De Guava \u2014 $635 (H60/40) \u2014 (Dulce \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 635.0,
+     "oz": 39.69
+    },
+    "price": {
+     "lb": 785.0,
+     "oz": 84.69
+    },
+    "code": "/p0_1429a"
+   },
+   {
+    "name": "**Durban Cookies - 52A4**",
+    "desc": "__$825 - Indoors Shop More Shinobi Level F\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 825.0,
+     "oz": 51.56
+    },
+    "price": {
+     "lb": 975.0,
+     "oz": 96.56
+    },
+    "code": "/p1_1429a"
+   },
+   {
+    "name": "**Frosted Runtz - 35C4**",
+    "desc": "__$500 - Deps Shop More Recruit Level Flow\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 500.0,
+     "oz": 31.25
+    },
+    "price": {
+     "lb": 650.0,
+     "oz": 76.25
+    },
+    "code": "/p3_1429a"
+   },
+   {
+    "name": "**Galactic Warheadz - 23E2**",
+    "desc": "__$660 - Deps Shop More Ronin Level Flower\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 660.0,
+     "oz": 41.25
+    },
+    "price": {
+     "lb": 810.0,
+     "oz": 86.25
+    },
+    "code": "/p1_1429f"
+   },
+   {
+    "name": "**Garlic Popperz**",
+    "desc": "__Garlic Popperz \u2014 $680 (I60/40) \u2014 (GMO x \u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 680.0,
+     "oz": 42.5
+    },
+    "price": {
+     "lb": 830.0,
+     "oz": 87.5
+    },
+    "code": "/p2_1429f"
+   },
+   {
+    "name": "**Gorilla Glue - 75F2**",
+    "desc": "__$1480 - Indoors Shop More Jonin Level Fl\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 1480.0,
+     "oz": 92.5
+    },
+    "price": {
+     "lb": 1630.0,
+     "oz": 137.5
+    },
+    "code": "/p1_1429n"
+   },
+   {
+    "name": "**Gorilla Runtz**",
+    "desc": "__GORILLA RUNTZ \u2014 $700 Lineage: GG4 \u00d7 Bubb\u2026__",
+    "vendor": "AmericanCannabis",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 700.0,
+     "oz": 43.75
+    },
+    "price": {
+     "lb": 850.0,
+     "oz": 88.75
+    },
+    "code": "/p2_1429n"
+   },
+   {
+    "name": "**Ice Cream Cake - 14L4**",
+    "desc": "__$555 - Deps Shop More Recruit Level Flow\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 555.0,
+     "oz": 34.69
+    },
+    "price": {
+     "lb": 705.0,
+     "oz": 79.69
+    },
+    "code": "/p1_1429s"
+   },
+   {
+    "name": "**Jack Herer - 89M15**",
+    "desc": "__$715 - Indoors Shop More Shinobi Level F\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 715.0,
+     "oz": 44.69
+    },
+    "price": {
+     "lb": 865.0,
+     "oz": 89.69
+    },
+    "code": "/p3_1429s"
+   },
+   {
+    "name": "**Lantz - 37C14**",
+    "desc": "__$1535 - Indoors Shop More Jonin Level Fl\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 1535.0,
+     "oz": 95.94
+    },
+    "price": {
+     "lb": 1685.0,
+     "oz": 140.94
+    },
+    "code": "/p0_1429x"
+   },
+   {
+    "name": "**Lantz - 75O2**",
+    "desc": "__$605 - Deps Shop More Ronin Level Flower\u2026__",
+    "vendor": "Surefour Wholesale Emporium",
+    "rating": null,
+    "purchases": null,
+    "cost": {
+     "lb": 605.0,
+     "oz": 37.81
+    },
+    "price": {
+     "lb": 755.0,
+     "oz": 82.81
+    },
+    "code": "/p1_1429x"
+   }
+  ]
+ }
+}
