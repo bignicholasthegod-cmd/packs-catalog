@@ -2,9 +2,9 @@ import os, re, json, time, asyncio
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
-API_ID  = int(os.environ["TG_API_ID"])
+API_ID   = int(os.environ["TG_API_ID"])
 API_HASH = os.environ["TG_API_HASH"]
-SESSION = os.environ["TG_SESSION"]
+SESSION  = os.environ["TG_SESSION"]
 
 BOT = "SiBannerBot"
 
@@ -13,24 +13,21 @@ CATEGORIES = [
     "/m_vape", "/m_mushrooms", "/m_edibles", "/m_clearance",
 ]
 
-# --- your pricing rule ---
 LB_MARKUP = 150.0
 OZ_MARKUP = 45.0
 
-# --- tunables ---
-MAX_PAGES       = 400      # flower alone is 166 pages
-STEP_DELAY      = 1.6      # seconds between clicks
-FETCH_PRICES    = os.environ.get("FETCH_PRICES", "1") == "1"
-MAX_PRICE_FETCH = int(os.environ.get("MAX_PRICE_FETCH", "0"))   # 0 = all
-KEEP_VENDORS    = [v.strip().lower() for v in os.environ.get("KEEP_VENDORS", "").split(",") if v.strip()]
+MAX_PAGES     = 400
+STEP_DELAY    = 1.4
+OPEN_UNPRICED = os.environ.get("OPEN_UNPRICED", "1") == "1"
+KEEP_VENDORS  = [v.strip().lower() for v in os.environ.get("KEEP_VENDORS", "").split(",") if v.strip()]
 
-# --- regexes ---
-CODE_FIND  = re.compile(r"(/p\d+_[0-9a-z]+)")
-CODE_LINE  = re.compile(r"^/p\d+_[0-9a-z]+$")
-VENDOR_RE  = re.compile(r"^--\s*by\s+(.+)$", re.M)
-RATING_RE  = re.compile(r"⭐\s*([\d.]+)\s*\((\d+)\s*purchase")
-PURCH_RE   = re.compile(r"\((\d+)\s*purchase")
-PRICE_RE   = re.compile(r"\$\s*([\d,]+(?:\.\d+)?)")
+CODE_FIND = re.compile(r"(/p\d+_[0-9a-z]+)")
+CODE_LINE = re.compile(r"^/p\d+_[0-9a-z]+$")
+VENDOR_RE = re.compile(r"^--\s*by\s+(.+)$", re.M)
+RATING_RE = re.compile(r"⭐\s*([\d.]+)\s*\((\d+)\s*purchase")
+PURCH_RE  = re.compile(r"\((\d+)\s*purchase")
+PRICE_RE  = re.compile(r"\$\s*([\d,]+(?:\.\d+)?)")
+OOS_RE    = re.compile(r"out of stock|sold out|restock|no stock|unavailable", re.I)
 
 client = TelegramClient(StringSession(SESSION), API_ID, API_HASH)
 client.flood_sleep_threshold = 300
@@ -73,7 +70,6 @@ def parse_products(text, category):
         mv = VENDOR_RE.search(b)
         if not mc or not mv:
             continue
-        code = mc.group(1)
         lines = [l.strip() for l in b.split("\n") if l.strip()]
         ci = next((i for i, l in enumerate(lines) if CODE_LINE.match(l)), None)
         if ci is None or ci == 0:
@@ -91,32 +87,45 @@ def parse_products(text, category):
         vendor = mv.group(1).strip()
         if KEEP_VENDORS and vendor.lower() not in KEEP_VENDORS:
             continue
+        amts = [float(a.replace(",", "")) for a in PRICE_RE.findall(b)]
         out.append({
-            "code": code, "name": name, "desc": desc, "vendor": vendor,
+            "code": mc.group(1), "name": name, "desc": desc, "vendor": vendor,
             "rating": rating, "purchases": purchases, "category": category,
+            "_amts": amts, "_oos": bool(OOS_RE.search(b)),
         })
     return out
 
 
+def prices_from_amounts(amts):
+    if not amts:
+        return {}
+    out = {"lb": max(amts)}
+    if len(amts) >= 2 and min(amts) < max(amts):
+        out["oz"] = min(amts)
+    return out
+
+
 def parse_prices(text):
+    amts = [float(a.replace(",", "")) for a in PRICE_RE.findall(text)]
+    if not amts:
+        return {}
     prices = {}
     for line in text.split("\n"):
         if "$" not in line:
             continue
-        amts = PRICE_RE.findall(line)
-        if not amts:
-            continue
         low = line.lower()
         unit = None
-        if "lb" in low or "pound" in low:
+        if re.search(r"\b(lb|lbs|pound|pounds)\b", low):
             unit = "lb"
-        elif "oz" in low or "ounce" in low:
+        elif re.search(r"\b(oz|ounce|ounces)\b", low):
             unit = "oz"
-        elif "qp" in low or "quarter" in low:
+        elif re.search(r"\b(qp|quarter)\b", low):
             unit = "qp"
         if unit and unit not in prices:
-            prices[unit] = float(amts[0].replace(",", ""))
-    return prices
+            a = PRICE_RE.findall(line)
+            if a:
+                prices[unit] = float(a[0].replace(",", ""))
+    return prices or prices_from_amounts(amts)
 
 
 def sell_for(cost, unit):
@@ -148,7 +157,7 @@ async def crawl_category(bot, cmd, seen):
             seen.add(p["code"])
             found.append(p)
             new += 1
-        print(f"   {cmd} p{page}: {len(prods)} items ({new} new)")
+        print(f"   {cmd} p{page}: {len(prods)} listed ({new} new)")
         btn = find_btn(msg, ">")
         if not btn:
             print(f"   {cmd}: done at page {page}")
@@ -169,8 +178,7 @@ async def fetch_detail(bot, code):
     prev = cur.text if cur else ""
     await client.send_message(bot, code)
     await asyncio.sleep(2.0)
-    m = await wait_change(bot, prev, timeout=30)
-    return m.text if m else None
+    return await wait_change(bot, prev, timeout=30)
 
 
 async def main():
@@ -185,24 +193,38 @@ async def main():
     for cmd in CATEGORIES:
         print(f"=== {cmd}")
         items.extend(await crawl_category(bot, cmd, seen))
-    print("TOTAL PRODUCTS:", len(items))
+    print("TOTAL LISTED:", len(items))
 
-    if FETCH_PRICES and items:
-        limit = len(items) if not MAX_PRICE_FETCH else min(MAX_PRICE_FETCH, len(items))
-        print(f"fetching prices for {limit} items")
-        for i, it in enumerate(items[:limit]):
-            txt = await fetch_detail(bot, it["code"])
-            if txt:
-                if i == 0:
-                    print("---- SAMPLE DETAIL ----")
-                    print(txt[:900])
-                    print("-----------------------")
+    priced_inline = opened = kept = 0
+    for it in items:
+        amts = it.pop("_amts")
+        oos = it.pop("_oos")
+        costs = {}
+        if amts and not oos:
+            costs = prices_from_amounts(amts)
+            priced_inline += 1
+        elif OPEN_UNPRICED:
+            m = await fetch_detail(bot, it["code"])
+            opened += 1
+            txt = m.text if m else ""
+            if txt and not OOS_RE.search(txt):
                 costs = parse_prices(txt)
-                it["cost"] = costs
-                it["price"] = {u: sell_for(c, u) for u, c in costs.items()}
-            if i % 25 == 0:
-                print(f"  price {i}/{limit}")
-            await asyncio.sleep(1.2)
+            if opened % 25 == 0:
+                print(f"  opened {opened}  kept {kept}")
+            await asyncio.sleep(1.1)
+        if costs:
+            if "oz" not in costs and "lb" in costs:
+                costs["oz"] = round(costs["lb"] / 16.0, 2)
+            it["cost"] = costs
+            it["price"] = {u: sell_for(c, u) for u, c in costs.items()}
+            it["in_stock"] = True
+            kept += 1
+        else:
+            it["in_stock"] = False
+
+    print(f"priced inline: {priced_inline} | opened: {opened} | IN STOCK: {kept}")
+    items = [it for it in items if it.get("in_stock")]
+    print("CATALOG ITEMS:", len(items))
 
     raw = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
            "count": len(items), "items": items}
