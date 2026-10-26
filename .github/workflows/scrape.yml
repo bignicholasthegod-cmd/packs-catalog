@@ -19,8 +19,8 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
-          OPEN_UNPRICED: "1"
-        run: python scrape.py
+          VENDORS: "Best of the Bay,Boomingsales,American Cannabis,QueenTetra"
+        run: python -u scrape.py
       - run: |
           git config user.name "catalog-bot"
           git config user.email "bot@users.noreply.github.com"
