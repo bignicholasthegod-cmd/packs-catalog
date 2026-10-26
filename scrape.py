@@ -10,7 +10,6 @@ BOT = "SiBannerBot"
 
 VENDORS = [v.strip() for v in os.environ.get("VENDORS", "").split(",") if v.strip()]
 
-# fallback only (used if the vendor list can't be read)
 CATEGORIES = ["/m_flower", "/m_concentrates", "/m_prerolled", "/m_hash",
               "/m_vape", "/m_mushrooms", "/m_edibles", "/m_clearance"]
 
@@ -18,10 +17,11 @@ LB_MARKUP = 150.0
 OZ_MARKUP = 45.0
 MAX_PAGES = 400
 STEP_DELAY = 1.0
-MAX_VENDOR_PAGES = 60
+MAX_VENDOR_PAGES = 40
 
 CODE_FIND = re.compile(r"(/p\d+_[0-9a-z]+)")
 CODE_LINE = re.compile(r"^/p\d+_[0-9a-z]+$")
+ANY_CMD   = re.compile(r"(/[A-Za-z]\w*_\w+)")
 VENDOR_LN = re.compile(r"^[-–—\s]*by\s+(.+)$", re.I)
 RATING_RE = re.compile(r"⭐\s*([\d.]+)\s*\((\d+)\s*purchase")
 PURCH_RE  = re.compile(r"\((\d+)\s*purchase")
@@ -47,29 +47,27 @@ async def newest_bot(bot):
     return None
 
 
-async def wait_change(bot, old_text, timeout=40):
+async def wait_stable(bot, old_text, timeout=30):
     end = time.time() + timeout
+    last = None
+    changed = False
     while time.time() < end:
         m = await newest_bot(bot)
         if m and m.text and m.text != old_text:
-            return m
+            changed = True
+            if m.text == last:
+                return m
+            last = m.text
         await asyncio.sleep(0.8)
-    return None
+    return await newest_bot(bot) if changed else None
 
 
-async def wait_stable(bot, old_text, timeout=40):
-    m = await wait_change(bot, old_text, timeout)
-    if not m:
-        return None
-    last = m.text
-    for _ in range(8):
-        await asyncio.sleep(0.9)
-        m2 = await newest_bot(bot)
-        if m2 and m2.text == last:
-            return m2
-        if m2:
-            last = m2.text
-    return await newest_bot(bot)
+def send_and_get(bot, cmd, wait=4.0):
+    async def _inner():
+        await client.send_message(bot, cmd)
+        await asyncio.sleep(wait)
+        return await newest_bot(bot)
+    return _inner()
 
 
 def find_btn(msg, label):
@@ -98,8 +96,20 @@ def find_vendor_button(msg, target):
     for row in msg.buttons:
         for b in row:
             n = norm(b.text)
-            if n == t or t in n or n in t:
+            if n and (n == t or t in n or n in t):
                 return b
+    return None
+
+
+def find_vendor_cmd(text, target):
+    t = norm(target)
+    lines = (text or "").split("\n")
+    for i, line in enumerate(lines):
+        if t and t in norm(line):
+            for cand in [line] + lines[max(0, i - 1):i + 2]:
+                m = ANY_CMD.search(cand)
+                if m:
+                    return m.group(1)
     return None
 
 
@@ -149,14 +159,6 @@ def parse_products(text, group, fallback_vendor=None):
     return out
 
 
-async def open_cmd(bot, cmd):
-    cur = await newest_bot(bot)
-    prev = cur.text if cur else ""
-    await client.send_message(bot, cmd)
-    await asyncio.sleep(3.5)
-    return await wait_stable(bot, prev)
-
-
 async def crawl_listing(bot, msg, group, seen, fallback_vendor=None, label=""):
     found = []
     page, empties = 0, 0
@@ -189,21 +191,26 @@ async def crawl_listing(bot, msg, group, seen, fallback_vendor=None, label=""):
         except Exception as e:
             log("   click err:", e)
             break
-        msg = await wait_stable(bot, prev)
+        nxt = await wait_stable(bot, prev)
+        if not nxt or nxt.text == prev:
+            log("   no change after click, stopping")
+            break
+        msg = nxt
         await asyncio.sleep(STEP_DELAY)
     return found
 
 
 async def goto_vendor(bot, target):
-    """open /m_our_vendors, page until we find the target vendor button."""
-    msg = await open_cmd(bot, "/m_our_vendors")
-    if not msg:
-        return None
-    log(f"   vendors list: {all_btns(msg)[:14]}")
+    msg = await send_and_get(bot, "/m_our_vendors", 4.0)
     for _ in range(MAX_VENDOR_PAGES):
+        if not msg:
+            break
         b = find_vendor_button(msg, target)
         if b:
-            return b
+            return "btn", b, msg
+        c = find_vendor_cmd(msg.text or "", target)
+        if c:
+            return "cmd", c, msg
         nxt = find_btn(msg, ">")
         if not nxt:
             break
@@ -211,27 +218,28 @@ async def goto_vendor(bot, target):
         await nxt.click()
         msg = await wait_stable(bot, prev)
         await asyncio.sleep(0.8)
-    return None
+    return None, None, msg
 
 
 async def scrape_vendor(bot, target, seen):
-    b = await goto_vendor(bot, target)
-    if not b:
-        log(f"!! vendor not found: {target}")
+    log(f"=== {target}: opening vendor list")
+    kind, hit, msg = await goto_vendor(bot, target)
+    if not hit:
+        log(f"!! not found: {target}")
+        log(f"   last btns: {all_btns(msg)}")
+        log(f"   last text: {(msg.text if msg else '')[:600].replace(chr(10),' / ')}")
         return []
-    log(f"=== {target} (clicking in)")
-    prev = await newest_bot(bot)
-    ptext = prev.text if prev else ""
-    try:
-        await b.click()
-    except Exception as e:
-        log("   click err:", e)
+    if kind == "btn":
+        prev = msg.text
+        await hit.click()
+        m = await wait_stable(bot, prev)
+    else:
+        log(f"   using command {hit}")
+        m = await send_and_get(bot, hit, 4.0)
+    if not m:
+        log(f"!! {target}: no page")
         return []
-    msg = await wait_stable(bot, ptext)
-    if not msg:
-        log(f"!! {target}: no page after click")
-        return []
-    return await crawl_listing(bot, msg, target, seen, fallback_vendor=target, label=target)
+    return await crawl_listing(bot, m, target, seen, fallback_vendor=target, label=target)
 
 
 async def main():
@@ -242,18 +250,16 @@ async def main():
     bot = await client.get_entity(BOT)
     log("connected | vendors:", VENDORS)
 
+    probe = await send_and_get(bot, "/m_our_vendors", 4.0)
+    log("---- /m_our_vendors TEXT ----")
+    log((probe.text if probe else "(none)")[:1600])
+    log("---- /m_our_vendors BUTTONS ----")
+    log(all_btns(probe))
+
     seen, items = set(), []
     for v in VENDORS:
         items.extend(await scrape_vendor(bot, v, seen))
         log(f"--- {v}: running total {len(items)}")
-
-    if not items:
-        log("!! vendor navigation yielded nothing, falling back to categories")
-        for cmd in CATEGORIES:
-            log(f"=== {cmd}")
-            m = await open_cmd(bot, cmd)
-            if m:
-                items.extend(await crawl_listing(bot, m, cmd, seen, label=cmd))
 
     log("TOTAL KEPT:", len(items))
 
